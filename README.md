@@ -120,7 +120,7 @@ Features include:
   <a href="https://facebook.com/your-page">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" />
   </a>
-  <a href="https://instagram.com/your-handle">
+  <a href="https://instagram.com/mastermindcreat">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" />
   </a>
 </p>
