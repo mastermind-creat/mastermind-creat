@@ -30,6 +30,15 @@
 
 ---
 
+## 📢 Latest Update
+🎉 Just completed my **Motorbike Leasing System** using PHP and MySQL.  
+Features include:
+- Customer and Admin roles
+- Idle/Busy status updates
+- Late fee logic (Ksh 50/hour)  
+📁 [Check the project here](https://github.com/mastermind-creat/motorbike-leasing-system)
+
+---
 ## 🧰 Tech Stack
 
 <p align="center">
@@ -62,7 +71,7 @@
       </p>
     </td>
     <td align="center" width="320">
-      <a href="https://github.com/yourusername/project2">
+      <a href="https://github.com/mastermind-creat/Oxygen_Bus">
         <img src="images/bus.png" alt="Bus Booking Management System" width="220" style="border-radius: 12px; box-shadow: 0 2px 8px #ccc;" />
         <br />
         <b>Bus Booking Management System</b>
