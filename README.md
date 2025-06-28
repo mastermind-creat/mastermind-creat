@@ -97,7 +97,7 @@ Features include:
   <tr>
     <td align="center" width="320">
       <a href="https://github.com/Lines-Genius/Lines-Genius">
-        <img src="https://raw.githubusercontent.com/Lines-Genius/Lines-Genius/main/public/logo.png" alt="Lines Genius App" width="220" style="border-radius: 12px; box-shadow: 0 2px 8px #ccc;" />
+        <img src="images/genius.png" alt="Lines Genius App" width="220" style="border-radius: 12px; box-shadow: 0 2px 8px #ccc;" />
         <br />
         <b>Lines Genius App</b>
       </a>
@@ -107,7 +107,7 @@ Features include:
     </td>
     <td align="center" width="320">
       <a href="https://github.com/mastermind-creat/motorbike-leasing-system">
-        <img src="https://raw.githubusercontent.com/mastermind-creat/motorbike-leasing-system/main/images/motorbike.png" alt="Motorbike Leasing System" width="220" style="border-radius: 12px; box-shadow: 0 2px 8px #ccc;" />
+        <img src="images/motorbike.png" alt="Motorbike Leasing System" width="220" style="border-radius: 12px; box-shadow: 0 2px 8px #ccc;" />
         <br />
         <b>Motorbike Leasing System</b>
       </a>
@@ -117,7 +117,7 @@ Features include:
     </td>
     <td align="center" width="320">
       <a href="https://github.com/mastermind-creat/Oxygen_Bus">
-        <img src="https://raw.githubusercontent.com/mastermind-creat/Oxygen_Bus/main/images/bus.png" alt="Bus Booking Management System" width="220" style="border-radius: 12px; box-shadow: 0 2px 8px #ccc;" />
+        <img src="images/bus.png" alt="Bus Booking Management System" width="220" style="border-radius: 12px; box-shadow: 0 2px 8px #ccc;" />
         <br />
         <b>Bus Booking Management System</b>
       </a>
