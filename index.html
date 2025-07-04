@@ -132,7 +132,7 @@
         .profile-img {
             width: 200px;
             height: 200px;
-            border-radius: 50%;
+            border-radius: 50% 20% 10%;
             border: 6px solid var(--accent-color);
             margin-bottom: 20px;
             animation: rotate-profile 10s linear infinite;
@@ -494,17 +494,79 @@
         <section id="about" data-aos="fade-up">
             <h2><i class="fas fa-user"></i> About Me</h2>
             <div class="container">
-                <div class="about-card">
-                    <p class="text-center mb-4">
-                        I'm a <b>Full-Stack Developer</b> and <b>Creative Graphic Designer</b> passionate about building innovative, user-centric solutions. My expertise spans web and app development, UI/UX design, and system automation, delivering projects that blend functionality with aesthetic appeal.
-                    </p>
-                    <ul>
-                        <li><i class="fas fa-star"></i> <b>Currently working on</b>: New Kavirondo SACCO Invest Management Systems, Hyper-Localized Service Platforms, and the <b>Lines Genius App</b></li>
-                        <li><i class="fas fa-seedling"></i> <b>Learning & Exploring</b>: React, Next.js, Tailwind CSS, GraphQL, and Advanced Android Development</li>
-                        <li><i class="fas fa-trophy"></i> <b>Achievements</b>: Competitor in <b> TVET National WorldSkills Kenya</b></li>
-                        <li><i class="fas fa-lightbulb"></i> <b>Mission</b>: To build scalable, impactful solutions that solve real-world problems</li>
-                        <li><i class="fas fa-envelope"></i> <b>Contact</b>: <a href="mailto:kennyleyy0@gmail.com">kennyleyy0@gmail.com</a></li>
-                    </ul>
+                <!-- Personal Info Section -->
+                <div class="row justify-content-center mb-4">
+                    <div class="col-lg-8">
+                        <div class="about-card text-center p-4 mb-3" style="max-width:600px;margin:auto;">
+                            <h3 style="color:var(--primary-color);font-size:1.3rem;margin-bottom:18px;"><i class="fas fa-id-card"></i> Personal Information</h3>
+                            <img src="images/wambia1.png" alt="Wambia Kennedy" class="profile-img mb-3" style="width:120px;height:120px;box-shadow:0 2px 10px rgba(0,0,0,0.18);" />
+                            <h4 style="margin-bottom: 10px; color: var(--primary-color); font-size: 1.2rem;">Wambia Kennedy</h4>
+                            <ul class="list-unstyled" style="font-size: 1.05rem; margin-bottom: 0;">
+                                <li><i class="fas fa-map-marker-alt" style="color:var(--secondary-color);"></i> Kisumu, Kenya</li>
+                                <li><i class="fas fa-graduation-cap" style="color:var(--secondary-color);"></i> Seme TVC, Programming</li>
+                                <li><i class="fas fa-language" style="color:var(--secondary-color);"></i> English, Swahili</li>
+                                <li><i class="fas fa-phone" style="color:var(--secondary-color);"></i> <a href="tel:+254712345678" style="color:var(--link-color);">+254 743 394 373</a></li>
+                                <li><i class="fas fa-venus-mars" style="color:var(--secondary-color);"></i> Male</li>
+                                <li><i class="fas fa-gamepad" style="color:var(--secondary-color);"></i> Coding, Designing, Watching, Gaming, Reading</li>
+                                <li><i class="fas fa-smile-beam" style="color:var(--secondary-color);"></i> Fun Fact: I can debug code faster than I can solve a Rubik's cube 😂</li>
+                                <li><i class="fas fa-envelope" style="color:var(--secondary-color);"></i> <a href="mailto:kennyleyy0@gmail.com" style="color:var(--link-color);">kennyleyy0@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- About & GIF Section -->
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mb-4">
+                        <div class="about-card" style="min-height: 340px;">
+                            <p class="mb-3" style="font-size:1.1rem;">
+                                I'm a <b>Full-Stack Developer</b> and <b>Creative Graphic Designer</b> passionate about building innovative, user-centric solutions. My expertise spans web and app development, UI/UX design, and system automation, delivering projects that blend functionality with aesthetic appeal.
+                            </p>
+                            <div class="row g-3">
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="about-card h-100 d-flex align-items-center">
+                                        <i class="fas fa-star fa-2x me-3" style="color:var(--secondary-color);"></i>
+                                        <div>
+                                            <b>Currently working on</b>:<br>
+                                            New Kavirondo SACCO Invest Management Systems, Hyper-Localized Service Platforms, and the <b>Lines Genius App</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="about-card h-100 d-flex align-items-center">
+                                        <i class="fas fa-seedling fa-2x me-3" style="color:var(--accent-color);"></i>
+                                        <div>
+                                            <b>Learning & Exploring</b>:<br>
+                                            React, Next.js, Tailwind CSS, GraphQL, and Advanced Android Development
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="about-card h-100 d-flex align-items-center">
+                                        <i class="fas fa-trophy fa-2x me-3" style="color:gold;"></i>
+                                        <div>
+                                            <b>Achievements</b>:<br>
+                                            Competitor in <b>TVET National WorldSkills Kenya</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6">
+                                    <div class="about-card h-100 d-flex align-items-center">
+                                        <i class="fas fa-lightbulb fa-2x me-3" style="color:var(--primary-color);"></i>
+                                        <div>
+                                            <b>Mission</b>:<br>
+                                            To build scalable, impactful solutions that solve real-world problems
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Programming GIF -->
+                    <div class="col-lg-4 d-flex justify-content-right align-items-right mb-4">
+                        <div class="about-card p-2" style="background:transparent;box-shadow:none;">
+                            <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Programming Animation" style="width:450px; height:450px; border-radius:16px; box-shadow:0 2px 16px rgba(0,0,0,0.18); object-fit:cover;" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
