@@ -3,196 +3,694 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wambia Kennedy - GitHub Profile</title>
+    <meta name="description" content="Wambia Kennedy's portfolio showcasing full-stack development and creative graphic design">
+    <meta name="keywords" content="Wambia Kennedy, full-stack developer, graphic designer, portfolio, web development, UI/UX design">
+    <title>Wambia Kennedy - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <style>
-      body {
-        background: linear-gradient(135deg, #1a1a1a 0%, #2c3e50 100%);
-        color: #e5e7eb;
-        font-family: 'Fira Code', monospace;
-        transition: all 0.3s ease;
-        text-align: center;
-        margin: 0;
-        padding: 20px;
-      }
-      img:hover {
-        transform: scale(1.05);
-        transition: transform 0.3s ease;
-      }
-      table {
-        border-spacing: 20px;
-        margin: 0 auto;
-      }
-      a {
-        text-decoration: none;
-        color: #0ea5e9;
-        transition: color 0.3s ease;
-      }
-      a:hover {
-        color: #60a5fa;
-      }
-      .shields {
-        margin: 10px;
-      }
-      @media (prefers-color-scheme: dark) {
-        body {
-          background: #121212;
+        :root {
+            --primary-color: #0ea5e9;
+            --secondary-color: #ff6b6b;
+            --accent-color: #5eead4;
+            --background-color: #1a1a1a;
+            --text-color: #e5e7eb;
+            --card-background: #3b4a5e;
+            --input-bg: #2a2a2a;
+            --input-border: #444;
+            --input-text: #e5e7eb;
+            --link-color: #0ea5e9;
+            --link-hover: #60a5fa;
+            --footer-bg: rgba(0, 0, 0, 0.9);
         }
-      }
+
+        body.light-mode {
+            --background-color: #f5f5f5;
+            --text-color: #222;
+            --card-background: #fff;
+            --input-bg: #fff;
+            --input-border: #bbb;
+            --input-text: #222;
+            --link-color: #0ea5e9;
+            --link-hover: #2563eb;
+            --footer-bg: #f5f5f5;
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            font-family: 'Fira Code', monospace;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            overflow-x: hidden;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: var(--footer-bg);
+            z-index: 1000;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .navbar-nav .nav-link {
+            color: var(--text-color) !important;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        .navbar-nav .nav-link:hover, #theme-toggle:hover {
+            color: var(--primary-color) !important;
+        }
+
+        #theme-toggle {
+            background: none;
+            border: none;
+            color: var(--text-color);
+            font-family: inherit;
+            font-size: 18px;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        #hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .gradient-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color), var(--accent-color), #ffcc00);
+            background-size: 400% 400%;
+            animation: gradient-animation 12s ease infinite;
+            z-index: -2;
+        }
+
+        @keyframes gradient-animation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: -1;
+            transition: background 0.3s;
+        }
+        body.light-mode .overlay {
+            background: rgba(255,255,255,0.6);
+        }
+
+        .hero-content {
+            z-index: 1;
+            max-width: 900px;
+            padding: 20px;
+        }
+
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 6px solid var(--accent-color);
+            margin-bottom: 20px;
+            animation: rotate-profile 10s linear infinite;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            background: var(--card-background);
+            object-fit: cover;
+        }
+
+        @keyframes rotate-profile {
+            0% { transform: rotateY(0deg); }
+            100% { transform: rotateY(360deg); }
+        }
+
+        .profile-img:hover {
+            transform: scale(1.1);
+            animation-play-state: paused;
+        }
+
+        #typed {
+            font-size: 40px;
+            font-weight: bold;
+            color: var(--text-color);
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        body.light-mode #typed {
+            color: #111;
+            text-shadow: 2px 2px 4px rgba(200,200,200,0.2);
+        }
+
+        .lead {
+            color: var(--text-color) !important;
+            font-size: 1.3rem;
+        }
+
+        section {
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin-bottom: 30px;
+            font-size: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.07);
+        }
+
+        h2 i {
+            margin-right: 10px;
+            color: var(--secondary-color);
+        }
+
+        .about-card {
+            background-color: var(--card-background);
+            border: 2px solid transparent;
+            border-image: linear-gradient(45deg, var(--primary-color), var(--accent-color)) 1;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, background 0.3s, color 0.3s;
+            color: var(--text-color);
+        }
+        body.light-mode .about-card {
+            color: #222;
+        }
+
+        .about-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .about-card ul {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        .about-card li {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            color: var(--text-color);
+        }
+        body.light-mode .about-card li {
+            color: #222;
+        }
+
+        .about-card li i {
+            margin-right: 10px;
+            color: var(--accent-color);
+            font-size: 20px;
+        }
+
+        .services-grid, .projects-grid, .design-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .service-card, .project-card, .design-card {
+            background-color: var(--card-background);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s, background 0.3s, color 0.3s;
+            color: var(--text-color);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+        }
+        body.light-mode .service-card,
+        body.light-mode .project-card,
+        body.light-mode .design-card {
+            color: #222;
+        }
+
+        .service-card:hover, .project-card:hover, .design-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+        }
+
+        .service-card i {
+            font-size: 30px;
+            color: var(--secondary-color);
+            margin-bottom: 15px;
+        }
+
+        .project-card img, .design-card img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            background: #fff;
+            object-fit: cover;
+        }
+
+        .project-card h3, .design-card h3 {
+            margin: 10px 0;
+            color: var(--primary-color);
+            font-size: 20px;
+        }
+
+        .project-card p, .design-card p {
+            color: var(--text-color);
+        }
+        body.light-mode .project-card p,
+        body.light-mode .design-card p {
+            color: #222;
+        }
+
+        .tech-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 18px;
+            padding: 20px;
+        }
+
+        .tech-card {
+            background: var(--card-background);
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+            padding: 18px 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 120px;
+            min-height: 80px;
+            transition: transform 0.2s, box-shadow 0.2s, background 0.3s;
+        }
+        body.light-mode .tech-card {
+            background: #fff;
+        }
+        .tech-card:hover {
+            transform: translateY(-6px) scale(1.07);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+        }
+
+        .tech-card img.tech-badge {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            background: none;
+            box-shadow: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .form-control {
+            background-color: var(--input-bg);
+            color: var(--input-text);
+            border: 1px solid var(--input-border);
+            border-radius: 6px;
+            transition: background 0.3s, color 0.3s, border 0.3s;
+        }
+        .form-control:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 2px var(--primary-color, #0ea5e9, 0.2);
+            outline: none;
+        }
+        body.light-mode .form-control {
+            background-color: var(--input-bg);
+            color: var(--input-text);
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            border: none;
+            transition: background-color 0.3s;
+            color: #fff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0b84c1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: var(--footer-bg);
+            color: var(--text-color);
+            transition: background 0.3s, color 0.3s;
+        }
+        body.light-mode footer {
+            background-color: var(--footer-bg);
+            color: #222;
+        }
+
+        footer a {
+            margin: 0 15px;
+            color: var(--primary-color);
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: var(--secondary-color);
+        }
+
+        #back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            opacity: 0;
+            transition: opacity 0.3s;
+            z-index: 999;
+        }
+
+        #back-to-top.show {
+            opacity: 1;
+        }
+
+        a, .btn-link {
+            color: var(--link-color);
+            transition: color 0.3s;
+        }
+        a:hover, .btn-link:hover {
+            color: var(--link-hover);
+        }
+
+        /* Extra: make placeholder text visible in both themes */
+        ::placeholder {
+            color: #bdbdbd;
+            opacity: 1;
+        }
+        body.light-mode ::placeholder {
+            color: #888;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            #hero {
+                min-height: 80vh;
+            }
+
+            .profile-img {
+                width: 120px;
+                height: 120px;
+            }
+
+            #typed {
+                font-size: 28px;
+            }
+
+            .navbar-nav {
+                flex-direction: column;
+            }
+
+            .navbar-nav .nav-link, #theme-toggle {
+                margin: 5px 0;
+            }
+
+            section {
+                padding: 40px 15px;
+            }
+
+            .services-grid, .projects-grid, .design-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        [data-aos] {
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+
+        [data-aos].aos-animate {
+            opacity: 1;
+        }
     </style>
 </head>
 <body>
-  <div align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=0ea5e9&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Wambia+Kennedy;A+Passionate+Full-Stack+Developer;Creative+Graphic+Designer;Building+Innovative+Solutions" alt="Typing SVG" />
-  </div>
+    <header data-aos="fade-down">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#hero"><i class="fas fa-home"></i> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about"><i class="fas fa-user"></i> About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services"><i class="fas fa-briefcase"></i> Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#design"><i class="fas fa-paint-brush"></i> Design Work</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                        <li class="nav-item"><button id="theme-toggle" class="nav-link"><i class="fas fa-moon"></i> Theme</button></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="hero" data-aos="fade-up">
+            <div class="gradient-background"></div>
+            <div class="overlay"></div>
+            <div class="hero-content container text-center">
+                <img src="images/wambia.jpg" alt="Wambia Kennedy" class="profile-img" />
+                <div id="typed"></div>
+                <p class="lead text-white">Crafting innovative solutions through code and creativity</p>
+            </div>
+        </section>
+        <section id="about" data-aos="fade-up">
+            <h2><i class="fas fa-user"></i> About Me</h2>
+            <div class="container">
+                <div class="about-card">
+                    <p class="text-center mb-4">
+                        I'm a <b>Full-Stack Developer</b> and <b>Creative Graphic Designer</b> passionate about building innovative, user-centric solutions. My expertise spans web and app development, UI/UX design, and system automation, delivering projects that blend functionality with aesthetic appeal.
+                    </p>
+                    <ul>
+                        <li><i class="fas fa-star"></i> <b>Currently working on</b>: New Kavirondo SACCO Invest Management Systems, Hyper-Localized Service Platforms, and the <b>Lines Genius App</b></li>
+                        <li><i class="fas fa-seedling"></i> <b>Learning & Exploring</b>: React, Next.js, Tailwind CSS, GraphQL, and Advanced Android Development</li>
+                        <li><i class="fas fa-trophy"></i> <b>Achievements</b>: Competitor in <b> TVET National WorldSkills Kenya</b></li>
+                        <li><i class="fas fa-lightbulb"></i> <b>Mission</b>: To build scalable, impactful solutions that solve real-world problems</li>
+                        <li><i class="fas fa-envelope"></i> <b>Contact</b>: <a href="mailto:kennyleyy0@gmail.com">kennyleyy0@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="services" data-aos="fade-up">
+            <h2><i class="fas fa-briefcase"></i> What I Offer</h2>
+            <div class="container services-grid">
+                <div class="service-card"><i class="fas fa-mobile-alt"></i><br><b>App Development</b><br>Native & Web Apps</div>
+                <div class="service-card"><i class="fas fa-globe"></i><br><b>Full-Stack Web</b><br>End-to-End Solutions</div>
+                <div class="service-card"><i class="fas fa-paint-brush"></i><br><b>UI/UX Design</b><br>Figma & Prototyping</div>
+                <div class="service-card"><i class="fas fa-search"></i><br><b>SEO & Marketing</b><br>Boost Visibility</div>
+                <div class="service-card"><i class="fas fa-code-branch"></i><br><b>Git Coaching</b><br>Workflow Mastery</div>
+            </div>
+        </section>
+        <section id="projects" data-aos="fade-up">
+            <h2><i class="fas fa-code"></i> Featured Projects</h2>
+            <div class="container projects-grid">
+                <div class="project-card">
+                    <img src="images/genius.png" alt="Lines Genius" />
+                    <h3>Lines Genius App</h3>
+                    <p>A creative coding platform with real-time code generation, subscriptions, and Framer Motion animations.</p>
+                    <a href="https://github.com/Lines-Genius/Lines-Genius" class="btn btn-primary btn-sm">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/sacco.png" alt="Kavirondo SACCO" />
+                    <h3>Kavirondo SACCO</h3>
+                    <p>A robust SACCO management system with member registration, loan tracking, and secure access.</p>
+                    <a href="https://github nutmeg.com/mastermind-creat/new-kavirondo-sacco" class="btn btn-primary btn-sm">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="images/bus.png" alt="Bus Booking" />
+                    <h3>Bus Booking System</h3>
+                    <p>An end-to-end solution for bus ticketing and schedule management.</p>
+                    <a href="https://github.com/mastermind-creat/Oxygen_Bus" class="btn btn-primary btn-sm">View Project</a>
+                </div>
+            </div>
+        </section>
+        <section id="design" data-aos="fade-up">
+            <h2><i class="fas fa-paint-brush"></i> Graphic Design Work</h2>
+            <div class="container design-grid">
+                <div class="design-card">
+                    <img src="images/graphic1.jpg" alt="UI/UX Design" />
+                    <h3>Flyer Design</h3>
+                    <p>Designed intuitive flyer for Seme TVC Ajira Digital club.</p>
+                </div>
+                <div class="design-card">
+                    <img src="images/fullstack.png" alt="Logo Design" />
+                    <h3>Fullstack Foundry</h3>
+                    <p>Created a vibrant flyer for a local web development startup training, blending modern typography and bold colors.</p>
+                </div>
+                <div class="design-card">
+                    <img src="images/ajiraimg.png" alt="Branding Project" />
+                    <h3>Ajira Digital Training</h3>
+                    <p>Developed a complete poster, for training section in Seme TVC Ajira Digital Club</p>
+                </div>
+            </div>
+        </section>
+        <section id="tech-stack" data-aos="fade-up">
+            <h2><i class="fas fa-tools"></i> Tech Stack</h2>
+            <div class="container tech-grid">
+                <div class="tech-card">
+                    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" class="tech-badge" />
+                </div>
+                <div class="tech-card">
+                    <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" class="tech-badge" />
+                </div>
+                <div class="tech-card">
+                    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" class="tech-badge" />
+                </div>
+                <div class="tech-card">
+                    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" class="tech-badge" />
+                </div>
+                <div class="tech-card">
+                    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" class="tech-badge" />
+                </div>
+                <div class="tech-card">
+                    <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" class="tech-badge" />
+                </div>
+                <div class="tech-card">
+                    <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" class="tech-badge" />
+                </div>
+                <div class="tech-card">
+                    <img src="https://img.shields.io/badge/Framer_Motion-000000?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" class="tech-badge" />
+                </div>
+                <div class="tech-card">
+                    <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" class="tech-badge" />
+                </div>
+                <div class="tech-card">
+                    <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" class="tech-badge" />
+                </div>
+                <div class="tech-card">
+                    <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" class="tech-badge" />
+                </div>
+                <div class="tech-card">
+                    <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" class="tech-badge" />
+                </div>
+            </div>
+        </section>
+        <section id="updates" data-aos="fade-up">
+            <h2><i class="fas fa-bullhorn"></i> Latest Updates</h2>
+            <div class="container">
+                <ul>
+                    <li><i class="fas fa-rocket"></i> <b>Lines Genius App</b> launched with dynamic code generation and EmailJS-powered subscriptions</li>
+                    <li><i class="fas fa-tools"></i> Working on a <b>Next.js-powered portfolio</b> with advanced animations and dark mode</li>
+                    <li><i class="fas fa-chalkboard-teacher"></i> Mentoring developers on Git workflows and openmediatime open-source contributions</li>
+                </ul>
+            </div>
+        </section>
+        <section id="contact" data-aos="fade-up">
+            <h2><i class="fas fa-envelope"></i> Contact Me</h2>
+            <div class="container">
+                <form name="contact" method="POST" data-netlify="true" class="needs-validation" novalidate>
+                    <input type="hidden" name="form-name" value="contact" />
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer data-aos="fade-up">
+        <h2><i class="fas fa-link"></i> Connect with Me</h2>
+        <div class="container text-center">
+            <a href="https://linkedin.com/in/your-profile"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://instagram.com/mastermindcreat"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://x.com/your-profile"><i class="fab fa-x-twitter fa-2x"></i></a>
+        </div>
+        <p class="mt-3"><b>“Code is the canvas of innovation – let’s paint the future together.”</b></p>
+        <p>⭐️ Thanks for visiting! Let’s collaborate on something extraordinary.</p>
+    </footer>
+    <button id="back-to-top" title="Back to Top"><i class="fas fa-arrow-up"></i></button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 800 });
+        document.addEventListener('DOMContentLoaded', function () {
+            new Typed('#typed', {
+                strings: [
+                    'Hi 👋, I\'m Wambia Kennedy',
+                    'Full-Stack Developer Extraordinaire',
+                    'Creative Graphic Design Wizard',
+                    'Crafting the Future with Code & Design'
+                ],
+                typeSpeed: 50,
+                backSpeed: 30,
+                loop: true,
+                showCursor: true,
+                cursorChar: '|'
+            });
 
-  <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=mastermind-creat&label=Profile%20Views&color=0ea5e9&style=flat-square" alt="Profile Views" class="shields" />
-    <a href="https://magical-fox-e142de.netlify.app/" target="_blank">
-      <img src="https://img.shields.io/badge/Portfolio-0ea5e9?style=flat-square&logo=netlify&logoColor=white" alt="Portfolio" class="shields" />
-    </a>
-    <a href="https://linkedin.com/in/your-profile">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" class="shields" />
-    </a>
-    <a href="mailto:kennyleyy0@gmail.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" class="shields" />
-    </a>
-  </p>
+            // Theme toggle
+            document.getElementById('theme-toggle').addEventListener('click', function() {
+                document.body.classList.toggle('light-mode');
+                this.innerHTML = document.body.classList.contains('light-mode') ? '<i class="fas fa-sun"></i> Theme' : '<i class="fas fa-moon"></i> Theme';
+            });
 
-  <hr>
+            // Back-to-top button
+            const backToTop = document.getElementById('back-to-top');
+            window.addEventListener('scroll', function() {
+                backToTop.classList.toggle('show', window.scrollY > 300);
+            });
+            backToTop.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
 
-  <h2>🚀 About Me</h2>
-  <p>
-    I'm a <b>Full-Stack Developer</b> and <b>Creative Graphic Designer</b> with a passion for crafting innovative, user-centric solutions. My expertise spans web and app development, UI/UX design, and system automation, delivering projects that blend functionality with aesthetic appeal.
-  </p>
-  <ul style="max-width:600px;margin:0 auto;text-align:left;">
-    <li>🌟 <b>Currently working on</b>: Library Management Systems, Bursary Automation, Hyper-Localized Service Platforms, and the <b>Lines Genius App</b></li>
-    <li>🌱 <b>Learning & Exploring</b>: Next.js, Tailwind CSS, GraphQL, and Advanced Android Development</li>
-    <li>🏆 <b>Achievements</b>: Competitor in <b>TVET National WorldSkills Kenya</b></li>
-    <li>💡 <b>Mission</b>: To build scalable, impactful solutions that solve real-world problems</li>
-    <li>📬 <b>Contact</b>: <a href="mailto:kennyleyy0@gmail.com">kennyleyy0@gmail.com</a></li>
-  </ul>
-
-  <hr>
-
-  <h2>💼 What I Offer</h2>
-  <div align="center">
-    <table>
-      <tr>
-        <td align="center"><b>📱 App Development</b><br>Native & Web Apps</td>
-        <td align="center"><b>🌐 Full-Stack Web</b><br>End-to-End Solutions</td>
-        <td align="center"><b>🎨 UI/UX Design</b><br>Figma & Prototyping</td>
-        <td align="center"><b>🛠 SEO & Marketing</b><br>Boost Visibility</td>
-        <td align="center"><b>📚 Git Coaching</b><br>Workflow Mastery</td>
-      </tr>
-    </table>
-  </div>
-
-  <hr>
-
-  <h2>🔥 Featured Projects</h2>
-  <div align="center">
-    <table>
-      <tr>
-        <td align="center" width="33%">
-          <a href="https://github.com/Lines-Genius/Lines-Genius">
-            <img src="images/genius.png" alt="Lines Genius" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
-            <br><b>Lines Genius App</b>
-          </a>
-          <p>A creative coding platform with real-time code generation, subscriptions, and Framer Motion animations.</p>
-        </td>
-        <td align="center" width="33%">
-          <a href="https://github.com/mastermind-creat/new-kavirondo-sacco">
-            <img src="images/sacco.png" alt="Kavirondo SACCO" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
-            <br><b>Kavirondo SACCO</b>
-          </a>
-          <p>A robust SACCO management system with member registration, loan tracking, and secure access.</p>
-        </td>
-        <td align="center" width="33%">
-          <a href="https://github.com/mastermind-creat/Oxygen_Bus">
-            <img src="images/bus.png" alt="Bus Booking" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
-            <br><b>Bus Booking System</b>
-          </a>
-          <p>An end-to-end solution for bus ticketing and schedule management.</p>
-        </td>
-      </tr>
-    </table>
-  </div>
-
-  <hr>
-
-  <h2>🧰 Tech Stack</h2>
-  <div align="center">
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" class="shields" />
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" class="shields" />
-    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" class="shields" />
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" class="shields" />
-    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" class="shields" />
-    <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" class="shields" />
-    <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" class="shields" />
-    <img src="https://img.shields.io/badge/Framer_Motion-000000?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" class="shields" />
-    <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" class="shields" />
-    <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" class="shields" />
-    <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" class="shields" />
-    <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" class="shields" />
-  </div>
-
-  <hr>
-
-  <h2>📊 GitHub Stats</h2>
-  <div align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=mastermind-creat&show_icons=true&theme=dark&hide_border=true" width="48%" alt="GitHub Stats" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=mastermind-creat&theme=dark&hide_border=true" width="48%" alt="GitHub Streak" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mastermind-creat&layout=compact&theme=dark&hide_border=true" width="48%" alt="Top Languages" />
-  </div>
-
-  <hr>
-
-  <h2>🌟 Latest Updates</h2>
-  <ul style="max-width:600px;margin:0 auto;text-align:left;">
-    <li>🎉 <b>Lines Genius App</b> launched with dynamic code generation and EmailJS-powered subscriptions</li>
-    <li>🛠 Working on a <b>Next.js-powered portfolio</b> with advanced animations and dark mode</li>
-    <li>📚 Mentoring developers on Git workflows and open-source contributions</li>
-  </ul>
-
-  <hr>
-
-  <h2>🌐 Connect with Me</h2>
-  <div align="center">
-    <a href="https://linkedin.com/in/your-profile">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" class="shields" />
-    </a>
-    <a href="https://instagram.com/mastermindcreat">
-      <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" class="shields" />
-    </a>
-    <a href="https://x.com/your-profile">
-      <img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X" class="shields" />
-    </a>
-  </div>
-
-  <hr>
-
-  <div align="center">
-    <b>“Code is the canvas of innovation – let’s paint the future together.”</b><br>
-    ⭐️ Thanks for visiting! Let’s collaborate on something extraordinary.
-  </div>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      new Typed('#typed', {
-        strings: [
-          'Hi 👋, I\'m Wambia Kennedy',
-          'A Passionate Full-Stack Developer',
-          'Creative Graphic Designer',
-          'Building Innovative Solutions'
-        ],
-        typeSpeed: 50,
-        backSpeed: 30,
-        loop: true,
-        showCursor: true,
-        cursorChar: '|'
-      });
-    });
-  </script>
+            // Form validation
+            const forms = document.querySelectorAll('.needs-validation');
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        });
+    </script>
 </body>
 </html>
