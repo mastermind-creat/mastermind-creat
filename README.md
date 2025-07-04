@@ -1,173 +1,140 @@
-<h1 align="center">Hi 👋, I'm Wambia Kennedy</h1>
-<h3 align="center">A Passionate Full-Stack Web & App Developer | Creative Graphic Designer</h3>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=0ea5e9¢er=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Wambia+Kennedy;A+Passionate+Full-Stack+Developer;Creative+Graphic+Designer;Building+Innovative+Solutions" alt="Typing SVG" />
+  <br>
+  <a href="YOUR_NETLIFY_OR_GITHUB_PAGES_URL">
+    <img src="https://img.shields.io/badge/View_Enhanced_Portfolio-0ea5e9?style=flat-square&logo=netlify&logoColor=white" alt="Enhanced Portfolio" />
+  </a>
+</div>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mastermind-creat&label=Profile%20views&color=0e75b6&style=flat" alt="mastermind-creat" />
+  <img src="https://komarev.com/ghpvc/?username=mastermind-creat&label=Profile%20Views&color=0ea5e9&style=flat-square" alt="Profile Views" />
+  <a href="https://magical-fox-e142de.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-0ea5e9?style=flat-square&logo=netlify&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://linkedin.com/in/your-profile">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:kennyleyy0@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 </p>
 
 ---
 
 ## 🚀 About Me
 
-- 👨‍💻 Currently focused on:
-  - **Library Management Systems**
-  - **Bursary Automation Projects**
-  - **Hyper-Localized Service Platforms**
-  - **Lines Genius App Development**
-- 🌱 Exploring: React, Next.js, Android Development, EmailJS Integration
-- 🧠 Passionate about crafting innovative solutions with code and design
-- 🏆 Competitor: **TVET National WorldSkills Kenya Competition**
-- ✉️ Reach me: [kennyleyy0@gmail.com](mailto:kennyleyy0@gmail.com)
+I'm a **Full-Stack Developer** and **Creative Graphic Designer** passionate about building innovative, user-centric solutions. My expertise spans web and app development, UI/UX design, and system automation, delivering projects that blend functionality with aesthetic appeal.
+
+- 🌟 **Currently working on**: Library Management Systems, Bursary Automation, Hyper-Localized Service Platforms, and the **Lines Genius App**
+- 🌱 **Learning & Exploring**: Next.js, Tailwind CSS, GraphQL, and Advanced Android Development
+- 🏆 **Achievements**: Competitor in **TVET National WorldSkills Kenya**
+- 💡 **Mission**: To create scalable, impactful solutions for real-world problems
+- 📬 **Contact**: [kennyleyy0@gmail.com](mailto:kennyleyy0@gmail.com)
 
 ---
 
-## 💼 Services I Offer
+## 💼 What I Offer
 
-- 📱 App Development (Android, Web-based)
-- 🌐 Full-Stack Web Development
-- 🎨 Logo & UI/UX Design (Figma)
-- 🛠 SEO & Digital Marketing
-- 📦 Git & GitHub Workflow Coaching
-
----
-
-## 📢 Latest Update
-🎉 Just launched the **Lines Genius App** – a creative coding platform with subscription features!  
-Features include:
-- Dynamic code generation
-- Email subscription system with EmailJS
-- Engaging UI with Framer Motion animations  
-📁 [Explore Lines Genius](https://github.com/Lines-Genius/Lines-Genius)  
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><b>📱 App Development</b><br>Native & Web Apps</td>
+      <td align="center"><b>🌐 Full-Stack Web</b><br>End-to-End Solutions</td>
+      <td align="center"><b>🎨 UI/UX Design</b><br>Figma & Prototyping</td>
+      <td align="center"><b>🛠 SEO & Marketing</b><br>Boost Visibility</td>
+      <td align="center"><b>📚 Git Coaching</b><br>Workflow Mastery</td>
+    </tr>
+  </table>
+</div>
 
 ---
 
-<p align="center">
-  <img src="images/genius.png" alt="Lines Genius Logo" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);" />
-</p>
-<p align="center">
-  Lines Genius is a cutting-edge app blending programming, creativity, and humor. Built with modern tech, it offers:<br>
-  - Real-time code generation<br>
-  - Subscription-based content delivery<br>
-  - Interactive animations and dark mode support<br>
-  <a href="https://github.com/Lines-Genius/Lines-Genius" target="_blank">View Repository</a>
-</p>
+## 🔥 Featured Projects
 
----
-
-<p align="center">
-  <img src="images/sacco.png" alt="New Kavirondo Invest SACCO Logo" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);" />
-</p>
-<p align="center">
-  <b>New Kavirondo SACCO Management System</b> is a robust platform designed for efficient SACCO operations. Key features include:<br>
-  - Member registration and management<br>
-  - Loan processing and tracking<br>
-  - Automated savings and reporting<br>
-  - Secure role-based access<br>
-  <a href="https://github.com/mastermind-creat/new-kavirondo-sacco" target="_blank">View Repository</a>
-</p>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://github.com/Lines-Genius/Lines-Genius">
+          <img src="images/genius.png" alt="Lines Genius" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
+          <br><b>Lines Genius App</b>
+        </a>
+        <p>A creative coding platform with real-time code generation, subscriptions, and Framer Motion animations.</p>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/mastermind-creat/new-kavirondo-sacco">
+          <img src="images/sacco.png" alt="Kavirondo SACCO" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
+          <br><b>Kavirondo SACCO</b>
+        </a>
+        <p>A robust SACCO management system with member registration, loan tracking, and secure access.</p>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/mastermind-creat/Oxygen_Bus">
+          <img src="images/bus.png" alt="Bus Booking" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
+          <br><b>Bus Booking System</b>
+        </a>
+        <p>An end-to-end solution for bus ticketing and schedule management.</p>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
 ## 🧰 Tech Stack
 
-<p align="center">
+<div align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=react-router&logoColor=white" alt="React Router" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/EmailJS-FF5733?style=flat-square&logo=sendgrid&logoColor=white" alt="EmailJS" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/Framer_Motion-000000?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
-  <img src="https://img.shields.io/badge/Lucide_Icons-000000?style=flat-square&logo=lucide&logoColor=white" alt="Lucide Icons" />
   <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap" />
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VSCode" />
-</p>
+</div>
 
 ---
 
-## 🏆 Featured Projects
+## 📊 GitHub Stats
 
-<table align="center">
-  <tr>
-    <td align="center" width="320">
-      <a href="https://github.com/Lines-Genius/Lines-Genius">
-        <img src="images/genius.png" alt="Lines Genius App" width="220" style="border-radius: 12px; box-shadow: 0 2px 8px #ccc;" />
-        <br />
-        <b>Lines Genius App</b>
-      </a>
-      <p style="font-size: 0.95em; color: #555; margin-top: 8px;">
-        A creative coding platform with dynamic generation, subscriptions, and animations.
-      </p>
-    </td>
-    <td align="center" width="320">
-      <a href="https://github.com/mastermind-creat/motorbike-leasing-system">
-        <img src="images/motorbike.png" alt="Motorbike Leasing System" width="220" style="border-radius: 12px; box-shadow: 0 2px 8px #ccc;" />
-        <br />
-        <b>Motorbike Leasing System</b>
-      </a>
-      <p style="font-size: 0.95em; color: #555; margin-top: 8px;">
-        A PHP/MySQL-based system for motorbike leasing with role-based access.
-      </p>
-    </td>
-    <td align="center" width="320">
-      <a href="https://github.com/mastermind-creat/Oxygen_Bus">
-        <img src="images/bus.png" alt="Bus Booking Management System" width="220" style="border-radius: 12px; box-shadow: 0 2px 8px #ccc;" />
-        <br />
-        <b>Bus Booking Management System</b>
-      </a>
-      <p style="font-size: 0.95em; color: #555; margin-top: 8px;">
-        An end-to-end solution for bus ticketing and schedule management.
-      </p>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mastermind-creat&show_icons=true&theme=dark&hide_border=true" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mastermind-creat&theme=dark&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mastermind-creat&layout=compact&theme=dark&hide_border=true" width="48%" />
+</div>
 
 ---
 
-## 📈 GitHub Stats & Contributions
+## 🌟 Latest Updates
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mastermind-creat&show_icons=true&theme=radical" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mastermind-creat&theme=radical" width="48%" />
-</p>
-
----
-
-## 🌐 Portfolio
-<p align="center">
-  Check out my latest work and projects at:  
-  <a href="https://magical-fox-e142de.netlify.app/" target="_blank">
-    <img src="images/portfolio.png" alt="Portfolio" />
-  </a>
-</p>
+- 🎉 **Lines Genius App** launched with dynamic code generation and EmailJS-powered subscriptions
+- 🛠 Working on a **Next.js-powered portfolio** with advanced animations and dark mode
+- 📚 Mentoring developers on Git workflows and open-source contributions
 
 ---
 
 ## 🌐 Connect with Me
 
-<p align="center">
+<div align="center">
   <a href="https://linkedin.com/in/your-profile">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://facebook.com/your-page">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://instagram.com/mastermindcreat">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
-</p>
+  <a href="https://x.com/your-profile">
+    <img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X" />
+  </a>
+</div>
 
 ---
 
-<p align="center">
-  <b>“Code is the language of innovation – let’s build the future together.”</b>
-</p>
-<p align="center">
-  ⭐️ Thanks for stopping by! Let’s create something amazing.
-</p>
+<div align="center">
+  <b>“Code is the canvas of innovation – let’s paint the future together.”</b><br>
+  ⭐️ Thanks for visiting! Let’s collaborate on something extraordinary.
+</div>
