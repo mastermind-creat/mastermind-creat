@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=0ea5e9¢er=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Wambia+Kennedy;A+Passionate+Full-Stack+Developer;Creative+Graphic+Designer;Building+Innovative+Solutions" alt="Typing SVG" />
   <br>
-  <a href="YOUR_NETLIFY_OR_GITHUB_PAGES_URL">
+  <a href="https://wambia-kennedy-portfolio.netlify.app/" target="_blank">
     <img src="https://img.shields.io/badge/View_Enhanced_Portfolio-0ea5e9?style=flat-square&logo=netlify&logoColor=white" alt="Enhanced Portfolio" />
   </a>
 </div>
