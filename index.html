@@ -667,12 +667,66 @@
         <section id="updates" data-aos="fade-up">
             <h2><i class="fas fa-bullhorn"></i> Latest Updates</h2>
             <div class="container">
-                <ul>
-                    <li><i class="fas fa-rocket"></i> <b>Lines Genius App</b> launched with dynamic code generation and EmailJS-powered subscriptions</li>
-                    <li><i class="fas fa-tools"></i> Working on a <b>Next.js-powered portfolio</b> with advanced animations and dark mode</li>
-                    <li><i class="fas fa-chalkboard-teacher"></i> Mentoring developers on Git workflows and openmediatime open-source contributions</li>
-                </ul>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="update-card shadow-sm p-4 h-100 text-center animate__animated animate__fadeInUp" style="border-radius: 16px; background: var(--card-background); transition: transform 0.3s;">
+                            <div class="update-icon mb-3" style="font-size:2.2rem; color:var(--primary-color);">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <h5 class="mb-2" style="color:var(--primary-color);">Lines Genius App</h5>
+                            <p style="font-size:1rem;">Launched with dynamic code generation and EmailJS-powered subscriptions.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="update-card shadow-sm p-4 h-100 text-center animate__animated animate__fadeInUp" style="border-radius: 16px; background: var(--card-background); transition: transform 0.3s; animation-delay: 0.1s;">
+                            <div class="update-icon mb-3" style="font-size:2.2rem; color:var(--accent-color);">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <h5 class="mb-2" style="color:var(--accent-color);">Next.js Portfolio</h5>
+                            <p style="font-size:1rem;">Working on a modern portfolio with advanced animations and dark mode.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="update-card shadow-sm p-4 h-100 text-center animate__animated animate__fadeInUp" style="border-radius: 16px; background: var(--card-background); transition: transform 0.3s; animation-delay: 0.2s;">
+                            <div class="update-icon mb-3" style="font-size:2.2rem; color:gold;">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                            </div>
+                            <h5 class="mb-2" style="color:gold;">Mentoring</h5>
+                            <p style="font-size:1rem;">Mentoring developers on Git workflows and open-source contributions.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="update-card shadow-sm p-4 h-100 text-center animate__animated animate__fadeInUp" style="border-radius: 16px; background: var(--card-background); transition: transform 0.3s; animation-delay: 0.3s;">
+                            <div class="update-icon mb-3" style="font-size:2.2rem; color:#ff6b6b;">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h5 class="mb-2" style="color:#ff6b6b;">Memory Game Web App</h5>
+                            <p style="font-size:1rem;">Currently building a fun and challenging Memory Game web app using React and Framer Motion!</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <style>
+                /* Animate.css CDN for sexy animations */
+                @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+                #updates .update-card {
+                    cursor: pointer;
+                    box-shadow: 0 4px 18px rgba(0,0,0,0.10);
+                    border: 1.5px solid transparent;
+                }
+                #updates .update-card:hover {
+                    transform: translateY(-8px) scale(1.04);
+                    border-color: var(--primary-color);
+                    box-shadow: 0 8px 32px rgba(14,165,233,0.15);
+                    background: linear-gradient(120deg, var(--card-background) 80%, var(--accent-color) 100%);
+                }
+                #updates .update-icon {
+                    transition: transform 0.3s;
+                }
+                #updates .update-card:hover .update-icon {
+                    transform: scale(1.2) rotate(-8deg);
+                }
+            </style>
         </section>
         <section id="contact" data-aos="fade-up">
             <h2><i class="fas fa-envelope"></i> Contact Me</h2>
