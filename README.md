@@ -1,8 +1,6 @@
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=0ea5e9&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Wambia+Kennedy;Full-Stack+Developer+&+Designer;Building+Innovative+Solutions;AI+&+Web+Enthusiast" alt="Typing SVG" />
   <br>
-  <img src="https://github.com/mastermind-creat/mastermind-creat/raw/output/github-contribution-grid-snake2.svg" alt="GitHub Contributions Snake" />
-  <br>
   <a href="https://wambia-kennedy-portfolio.netlify.app/" target="_blank">
     <img src="https://img.shields.io/badge/View_Enhanced_Portfolio-0ea5e9?style=flat-square&logo=netlify&logoColor=white" alt="Enhanced Portfolio" />
   </a>
@@ -138,7 +136,9 @@ I'm a **Full-Stack Developer** and **Creative Graphic Designer** passionate abou
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=mastermind-creat&theme=dark&hide_border=true" width="48%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mastermind-creat&layout=compact&theme=dark&hide_border=true" width="48%" />
 </div>
-
+  <div align="center">
+  <img src="https://github.com/mastermind-creat/mastermind-creat/raw/output/github-contribution-grid-snake2.svg" alt="GitHub Contributions Snake" />
+</div>
 ---
 
 ## 🌟 Latest Updates
