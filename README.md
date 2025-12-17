@@ -76,7 +76,7 @@ I'm a **Full-Stack Developer** and **Creative Graphic Designer** passionate abou
     <tr>
       <td align="center" width="33%">
         <a href="https://github.com/mastermind-creat/SnapAura">
-          <img src="images/snapaura.png" alt="SnapAura" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
+          <img src="SnapAura.jpg" alt="SnapAura" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
           <br><b>SnapAura</b>
         </a>
         <p>A futuristic social media platform with AI companions and P2P chat.</p>
