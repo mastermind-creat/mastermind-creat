@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=0ea5e9&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Wambia+Kennedy;A+Passionate+Full-Stack+Developer;Creative+Graphic+Designer;Building+Innovative+Solutions" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=0ea5e9&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Wambia+Kennedy;Full-Stack+Developer+&+Designer;Building+Innovative+Solutions;AI+&+Web+Enthusiast" alt="Typing SVG" />
   <br>
   <a href="https://wambia-kennedy-portfolio.netlify.app/" target="_blank">
     <img src="https://img.shields.io/badge/View_Enhanced_Portfolio-0ea5e9?style=flat-square&logo=netlify&logoColor=white" alt="Enhanced Portfolio" />
@@ -8,10 +8,7 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=mastermind-creat&label=Profile%20Views&color=0ea5e9&style=flat-square" alt="Profile Views" />
-  <a href="https://magical-fox-e142de.netlify.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-0ea5e9?style=flat-square&logo=netlify&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="https://linkedin.com/in/wambia-kennedy">
+  <a href="https://linkedin.com/in/your-profile">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:kennyleyy0@gmail.com">
@@ -23,17 +20,13 @@
 
 ## 🚀 About Me
 
-I'm a **Full-Stack Developer** and **Creative Graphic Designer** passionate about building innovative, user-centric solutions. My expertise spans web and app development, UI/UX design, system automation, and AI integration, delivering projects that blend functionality with aesthetic appeal.
+I'm a **Full-Stack Developer** and **Creative Graphic Designer** passionate about building innovative, user-centric solutions. My expertise spans web and app development, UI/UX design, AI integration, and system automation.
 
-- 🌟 **Currently working on**:  
-  - **Elimu Tech LMS** – modern learning management system for schools  
-  - **SnapAura OS** – a hyper-localized service platform  
-  - **LaunchVerse** – startup idea validation and launch platform  
-  - **Library Management Systems, Bursary Automation, Lines Genius App**  
-- 🌱 **Learning & Exploring**: Next.js, Tailwind CSS, GraphQL, Advanced Android Development  
+- 🌟 **Currently working on**: Elimu Tech LMS, SnapAura, LaunchVerse, Library Management Systems, Bursary Automation, Hyper-Localized Service Platforms, and the **Lines Genius App**  
+- 🌱 **Learning & Exploring**: Next.js, Tailwind CSS, GraphQL, Advanced Android Development, AI Integrations  
 - 🏆 **Achievements**: Competitor in **TVET National WorldSkills Kenya**  
-- 💡 **Mission**: Create scalable, impactful solutions for real-world problems  
-- 📬 **Contact**: [kennyleyy0@gmail.com](mailto:kennyleyy0@gmail.com)
+- 💡 **Mission**: To create scalable, futuristic solutions for real-world problems  
+- 📬 **Contact**: [kennyleyy0@gmail.com](mailto:kennyleyy0@gmail.com)  
 
 ---
 
@@ -59,34 +52,11 @@ I'm a **Full-Stack Developer** and **Creative Graphic Designer** passionate abou
   <table>
     <tr>
       <td align="center" width="33%">
-        <a href="https://github.com/mastermind-creat/ElimuTech_LMS">
-          <img src="images/elimutech.png" alt="Elimu Tech LMS" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
-          <br><b>Elimu Tech LMS</b>
-        </a>
-        <p>A modern learning management system for schools, supporting courses, assessments, and student management.</p>
-      </td>
-      <td align="center" width="33%">
-        <a href="https://github.com/mastermind-creat/SnapAura">
-          <img src="images/snapaura.png" alt="SnapAura OS" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
-          <br><b>SnapAura OS</b>
-        </a>
-        <p>Hyper-localized service platform for connecting people to nearby trusted services and tools.</p>
-      </td>
-      <td align="center" width="33%">
-        <a href="https://github.com/mastermind-creat/LaunchVerse">
-          <img src="images/launchverse.png" alt="LaunchVerse" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
-          <br><b>LaunchVerse</b>
-        </a>
-        <p>Startup launch and validation platform with idea tracking, market analytics, and growth insights.</p>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="33%">
         <a href="https://github.com/Lines-Genius/Lines-Genius">
           <img src="images/genius.png" alt="Lines Genius" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
           <br><b>Lines Genius App</b>
         </a>
-        <p>Creative coding platform with dynamic code generation, subscriptions, and animations.</p>
+        <p>A creative coding platform with real-time code generation, subscriptions, and Framer Motion animations.</p>
       </td>
       <td align="center" width="33%">
         <a href="https://github.com/mastermind-creat/new-kavirondo-sacco">
@@ -96,11 +66,34 @@ I'm a **Full-Stack Developer** and **Creative Graphic Designer** passionate abou
         <p>Robust SACCO management system with member registration, loan tracking, and secure access.</p>
       </td>
       <td align="center" width="33%">
+        <a href="https://github.com/mastermind-creat/ElimuTech-LMS">
+          <img src="images/elimu.png" alt="Elimu Tech LMS" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
+          <br><b>Elimu Tech LMS</b>
+        </a>
+        <p>Dynamic Learning Management System for schools and institutions with advanced features.</p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://github.com/mastermind-creat/SnapAura">
+          <img src="images/snapaura.png" alt="SnapAura" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
+          <br><b>SnapAura</b>
+        </a>
+        <p>A futuristic social media platform with AI companions and P2P chat.</p>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/mastermind-creat/LaunchVerse">
+          <img src="images/launchverse.png" alt="LaunchVerse" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
+          <br><b>LaunchVerse</b>
+        </a>
+        <p>An innovative platform for launching startups, showcasing portfolios, and connecting creators.</p>
+      </td>
+      <td align="center" width="33%">
         <a href="https://github.com/mastermind-creat/Oxygen_Bus">
           <img src="images/bus.png" alt="Bus Booking" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
           <br><b>Bus Booking System</b>
         </a>
-        <p>End-to-end solution for bus ticketing, schedules, and reservations.</p>
+        <p>End-to-end solution for bus ticketing and schedule management.</p>
       </td>
     </tr>
   </table>
@@ -123,6 +116,15 @@ I'm a **Full-Stack Developer** and **Creative Graphic Designer** passionate abou
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/AI-Purple?style=flat-square&logo=openai&logoColor=white" alt="AI" />
+</div>
+
+---
+
+## 🐍 GitHub Contribution Snake
+
+<div align="center">
+  ![Snake](https://github.com/your-username/your-repo/raw/output/github-contribution-snake.svg)
 </div>
 
 ---
@@ -139,18 +141,17 @@ I'm a **Full-Stack Developer** and **Creative Graphic Designer** passionate abou
 
 ## 🌟 Latest Updates
 
-- 🎉 **Elimu Tech LMS** launched for modern school management  
-- 🌐 **SnapAura OS** in progress – hyper-local service platform  
-- 🚀 **LaunchVerse** live – startup idea validation and tracking  
-- 🎨 **Lines Genius App** enhanced with dynamic code generation and subscriptions  
-- 🛠 Mentoring developers on Git workflows, open-source, and modern stack development  
+- 🎉 **Lines Genius App** launched with dynamic code generation and EmailJS-powered subscriptions  
+- 🛠 Working on **Next.js-powered portfolio** with advanced animations, dark mode, and futuristic UI  
+- 📚 Mentoring developers on Git workflows and open-source contributions  
+- 🚀 Developing **Elimu Tech LMS, SnapAura, LaunchVerse**  
 
 ---
 
 ## 🌐 Connect with Me
 
 <div align="center">
-  <a href="https://linkedin.com/in/wambia-kennedy">
+  <a href="https://linkedin.com/in/your-profile">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://instagram.com/mastermindcreat">
