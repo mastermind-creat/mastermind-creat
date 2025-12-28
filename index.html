@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Wambia Kennedy's portfolio showcasing full-stack development and creative graphic design">
-    <meta name="keywords" content="Wambia Kennedy, full-stack developer, graphic designer, portfolio, web development, UI/UX design">
+    <meta name="description" content="Wambia Kennedy's portfolio showcasing full-stack development, EdTech, AI systems, and creative graphic design">
+    <meta name="keywords" content="Wambia Kennedy, full-stack developer, graphic designer, EdTech, AI, portfolio, web development, UI/UX design">
     <title>Wambia Kennedy - Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- HEADER -->
     <header data-aos="fade-down">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -33,81 +34,82 @@
             </div>
         </nav>
     </header>
-    <main>
-        <section id="hero" data-aos="fade-up">
-            <div class="gradient-background"></div>
-            <div class="overlay"></div>
-            <div class="hero-content container text-center">
-                <img src="images/wambia.jpg" alt="Wambia Kennedy" class="profile-img" />
-                <div id="typed"></div>
-                <p class="lead text-white">Crafting innovative solutions through code and creativity</p>
-            </div>
-        </section>
-        <section id="about" data-aos="fade-up">
-            <h2><i class="fas fa-user"></i> About Me</h2>
-            <div class="container">
-                <!-- Personal Info Section -->
-                <div class="row justify-content-center mb-4">
-                    <div class="col-lg-8">
-                        <div class="about-card text-center p-4 mb-3" style="max-width:600px;margin:auto;">
-                            <h3 style="color:var(--primary-color);font-size:1.3rem;margin-bottom:18px;"><i class="fas fa-id-card"></i> Personal Information</h3>
-                            <img src="images/wambia1.png" alt="Wambia Kennedy" class="profile-img mb-3" style="width:120px;height:120px;box-shadow:0 2px 10px rgba(0,0,0,0.18);" />
-                            <h4 style="margin-bottom: 10px; color: var(--primary-color); font-size: 1.2rem;">Wambia Kennedy</h4>
-                            <ul class="list-unstyled" style="font-size: 1.05rem; margin-bottom: 0;">
-                                <li><i class="fas fa-map-marker-alt" style="color:var(--secondary-color);"></i> Kisumu, Kenya</li>
-                                <li><i class="fas fa-graduation-cap" style="color:var(--secondary-color);"></i> Seme TVC, Programming</li>
-                                <li><i class="fas fa-language" style="color:var(--secondary-color);"></i> English, Swahili</li>
-                                <li><i class="fas fa-phone" style="color:var(--secondary-color);"></i> <a href="tel:+254712345678" style="color:var(--link-color);">+254 743 394 373</a></li>
-                                <li><i class="fas fa-venus-mars" style="color:var(--secondary-color);"></i> Male</li>
-                                <li><i class="fas fa-gamepad" style="color:var(--secondary-color);"></i> Coding, Designing, Watching, Gaming, Reading</li>
-                                <li><i class="fas fa-smile-beam" style="color:var(--secondary-color);"></i> Fun Fact: I can debug code faster than I can solve a Rubik's cube 😂</li>
-                                <li><i class="fas fa-envelope" style="color:var(--secondary-color);"></i> <a href="mailto:kennyleyy0@gmail.com" style="color:var(--link-color);">kennyleyy0@gmail.com</a></li>
-                            </ul>
-                        </div>
+
+    <!-- HERO -->
+    <section id="hero" data-aos="fade-up">
+        <div class="gradient-background"></div>
+        <div class="overlay"></div>
+        <div class="hero-content container text-center">
+            <img src="images/wambia.jpg" alt="Wambia Kennedy" class="profile-img" />
+            <div id="typed"></div>
+            <p class="lead text-white">Crafting innovative solutions through code, AI, and creativity</p>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" data-aos="fade-up">
+        <h2><i class="fas fa-user"></i> About Me</h2>
+        <div class="container">
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-8">
+                    <div class="about-card text-center p-4 mb-3" style="max-width:600px;margin:auto;">
+                        <h3 style="color:var(--primary-color);font-size:1.3rem;margin-bottom:18px;"><i class="fas fa-id-card"></i> Personal Information</h3>
+                        <img src="images/wambia1.png" alt="Wambia Kennedy" class="profile-img mb-3" style="width:120px;height:120px;box-shadow:0 2px 10px rgba(0,0,0,0.18);" />
+                        <h4 style="margin-bottom: 10px; color: var(--primary-color); font-size: 1.2rem;">Wambia Kennedy</h4>
+                        <ul class="list-unstyled" style="font-size: 1.05rem; margin-bottom: 0;">
+                            <li><i class="fas fa-map-marker-alt" style="color:var(--secondary-color);"></i> Kisumu, Kenya</li>
+                            <li><i class="fas fa-graduation-cap" style="color:var(--secondary-color);"></i> Seme TVC, Programming</li>
+                            <li><i class="fas fa-language" style="color:var(--secondary-color);"></i> English, Swahili</li>
+                            <li><i class="fas fa-phone" style="color:var(--secondary-color);"></i> <a href="tel:+254743394373" style="color:var(--link-color);">+254 743 394 373</a></li>
+                            <li><i class="fas fa-venus-mars" style="color:var(--secondary-color);"></i> Male</li>
+                            <li><i class="fas fa-gamepad" style="color:var(--secondary-color);"></i> Coding, Designing, Gaming, Reading</li>
+                            <li><i class="fas fa-smile-beam" style="color:var(--secondary-color);"></i> Fun Fact: I debug code faster than I can solve a Rubik's cube 😂</li>
+                            <li><i class="fas fa-envelope" style="color:var(--secondary-color);"></i> <a href="mailto:kennyleyy0@gmail.com" style="color:var(--link-color);">kennyleyy0@gmail.com</a></li>
+                        </ul>
                     </div>
                 </div>
-                <!-- About & GIF Section -->
-                <div class="row align-items-center">
-                    <div class="col-lg-8 mb-4">
-                        <div class="about-card" style="min-height: 340px;">
-                            <p class="mb-3" style="font-size:1.1rem;">
-                                I'm a <b>Full-Stack Developer</b> and <b>Creative Graphic Designer</b> passionate about building innovative, user-centric solutions. My expertise spans web and app development, UI/UX design, and system automation, delivering projects that blend functionality with aesthetic appeal.
-                            </p>
-                            <div class="row g-3">
-                                <div class="col-md-6 col-lg-6">
-                                    <div class="about-card h-100 d-flex align-items-center">
-                                        <i class="fas fa-star fa-2x me-3" style="color:var(--secondary-color);"></i>
-                                        <div>
-                                            <b>Currently working on</b>:<br>
-                                            New Kavirondo SACCO Invest Management Systems, Hyper-Localized Service Platforms, and the <b>Lines Genius App</b>
-                                        </div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-lg-8 mb-4">
+                    <div class="about-card" style="min-height: 340px;">
+                        <p class="mb-3" style="font-size:1.1rem;">
+                            I'm a <b>Full-Stack Developer</b> and <b>Creative Systems Builder</b> passionate about building scalable EdTech and AI solutions that transform ideas into impactful platforms.
+                        </p>
+                        <div class="row g-3">
+                            <div class="col-md-6 col-lg-6">
+                                <div class="about-card h-100 d-flex align-items-center">
+                                    <i class="fas fa-star fa-2x me-3" style="color:var(--secondary-color);"></i>
+                                    <div>
+                                        <b>Currently working on</b>:<br>
+                                        <b>Elimu Tech LMS</b>, <b>SnapAura OS</b>, <b>LaunchVerse</b>
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-lg-6">
-                                    <div class="about-card h-100 d-flex align-items-center">
-                                        <i class="fas fa-seedling fa-2x me-3" style="color:var(--accent-color);"></i>
-                                        <div>
-                                            <b>Learning & Exploring</b>:<br>
-                                            React, Next.js, Tailwind CSS, GraphQL, and Advanced Android Development
-                                        </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="about-card h-100 d-flex align-items-center">
+                                    <i class="fas fa-seedling fa-2x me-3" style="color:var(--accent-color);"></i>
+                                    <div>
+                                        <b>Learning & Exploring</b>:<br>
+                                        React, Next.js, Tailwind CSS, GraphQL, Advanced Android Dev
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-lg-6">
-                                    <div class="about-card h-100 d-flex align-items-center">
-                                        <i class="fas fa-trophy fa-2x me-3" style="color:gold;"></i>
-                                        <div>
-                                            <b>Achievements</b>:<br>
-                                            Competitor in <b>TVET National WorldSkills Kenya</b>
-                                        </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="about-card h-100 d-flex align-items-center">
+                                    <i class="fas fa-trophy fa-2x me-3" style="color:gold;"></i>
+                                    <div>
+                                        <b>Achievements</b>:<br>
+                                        Competitor in <b>TVET National WorldSkills Kenya</b>
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-lg-6">
-                                    <div class="about-card h-100 d-flex align-items-center">
-                                        <i class="fas fa-lightbulb fa-2x me-3" style="color:var(--primary-color);"></i>
-                                        <div>
-                                            <b>Mission</b>:<br>
-                                            To build scalable, impactful solutions that solve real-world problems
-                                        </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="about-card h-100 d-flex align-items-center">
+                                    <i class="fas fa-lightbulb fa-2x me-3" style="color:var(--primary-color);"></i>
+                                    <div>
+                                        <b>Mission</b>:<br>
+                                        Build scalable, impactful systems solving real-world problems
                                     </div>
                                 </div>
                             </div>
@@ -302,7 +304,7 @@
                                         <i class="fab fa-github fa-2x"></i>
                                         <span class="d-block mt-2">GitHub</span>
                                     </a>
-                                    <a href="www.linkedin.com/in/wambia-kennedy-534232373" target="_blank" rel="noopener" class="follow-btn" title="LinkedIn">
+                                    <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener" class="follow-btn" title="LinkedIn">
                                         <i class="fab fa-linkedin fa-2x linkedin-icon"></i>
                                         <span class="d-block mt-2">LinkedIn</span>
                                     </a>
@@ -320,115 +322,74 @@
                         </section>
                     </div>
                 </div>
-            </div>
-            <style>
-                #follow-me .follow-btn {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    color: var(--text-color);
-                    text-decoration: none;
-                    font-weight: 500;
-                    font-size: 1rem;
-                    transition: color 0.2s, transform 0.2s;
-                    min-width: 90px;
-                }
-                #follow-me .follow-btn:hover {
-                    color: var(--primary-color);
-                    transform: translateY(-4px) scale(1.08);
-                    text-decoration: none;
-                }
-                #follow-me .fa-github { color: #222; }
-                body.light-mode #follow-me .fa-github { color: #333; }
-                @media (max-width: 991px) {
-                    #contact-follow .row {
-                        flex-direction: column;
-                    }
-                    #follow-me, #contact-inner {
-                        margin-bottom: 2rem;
-                    }
-                }
-                .linkedin-icon { color: #0a66c2; }
-                .instagram-icon { color: #e4405f; }
-                .facebook-icon { color: #1877f3; }
-            </style>
-        </section>
-    </main>
-    <footer data-aos="fade-up">
-        <h2><i class="fas fa-link"></i> Connect with Me</h2>
-        <div class="container text-center">
-            <a href="https://linkedin.com/in/your-profile"><i class="fab fa-linkedin fa-2x"></i></a>
-            <a href="https://instagram.com/mastermindcreat"><i class="fab fa-instagram fa-2x"></i></a>
-            <a href="https://x.com/your-profile"><i class="fab fa-x-twitter fa-2x"></i></a>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
         </div>
-        <p class="mt-3"><b>“Code is the canvas of innovation – let’s paint the future together.”</b></p>
-        <p>⭐️ Thanks for visiting! Let’s collaborate on something extraordinary.</p>
+    </section>
+
+    <!-- BACK TO TOP -->
+    <button id="back-to-top" class="btn btn-primary"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- FOOTER -->
+    <footer class="text-center p-4">
+        <p>&copy; 2025 Wambia Kennedy | All Rights Reserved</p>
+        <div class="social-icons">
+            <a href="https://github.com/mastermind-create" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/wambia-kennedy" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/wambia" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
     </footer>
-    <button id="back-to-top" title="Back to Top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- SCRIPTS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3.2.0/dist/email.min.js"></script>
     <script>
-        (function() {
-            emailjs.init('qU2NlZClNfJyjoXMz'); // Replace with your EmailJS User ID
-        })();
+        // Initialize AOS
+        AOS.init({ duration: 1000 });
 
-        AOS.init({ duration: 800 });
-        document.addEventListener('DOMContentLoaded', function () {
-            new Typed('#typed', {
-                strings: [
-                    'Hi 👋, I\'m Wambia Kennedy',
-                    'Full-Stack Developer Extraordinaire',
-                    'Creative Graphic Design Wizard',
-                    'Crafting the Future with Code & Design'
-                ],
-                typeSpeed: 50,
-                backSpeed: 30,
-                loop: true,
-                showCursor: true,
-                cursorChar: '|'
-            });
+        // Typed.js
+        const typed = new Typed('#typed', {
+            strings: ["Hi, I'm Wambia Kennedy.", "Full-Stack Developer.", "Creative Systems Builder.", "AI & EdTech Enthusiast."],
+            typeSpeed: 60,
+            backSpeed: 30,
+            loop: true
+        });
 
-            // Theme toggle
-            document.getElementById('theme-toggle').addEventListener('click', function() {
-                document.body.classList.toggle('light-mode');
-                this.innerHTML = document.body.classList.contains('light-mode') ? '<i class="fas fa-sun"></i> Theme' : '<i class="fas fa-moon"></i> Theme';
-            });
+        // Theme toggle
+        const toggleBtn = document.getElementById('theme-toggle');
+        toggleBtn.addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+        });
 
-            // Back-to-top button
-            const backToTop = document.getElementById('back-to-top');
-            window.addEventListener('scroll', function() {
-                backToTop.classList.toggle('show', window.scrollY > 300);
-            });
-            backToTop.addEventListener('click', function() {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            });
+        // Back to top
+        const backToTop = document.getElementById('back-to-top');
+        window.addEventListener('scroll', () => {
+            if(window.scrollY > 300) backToTop.style.display = 'block';
+            else backToTop.style.display = 'none';
+        });
+        backToTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 
-            // Form submission with EmailJS
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
-                event.preventDefault();
-                if (!this.checkValidity()) {
-                    this.classList.add('was-validated');
-                    return;
-                }
+        // EmailJS form submission
+        emailjs.init("YOUR_EMAILJS_USER_ID");
+        const contactForm = document.getElementById('contact-form');
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', contactForm)
+                .then(() => alert('Message sent successfully!'))
+                .catch(() => alert('Failed to send message. Please try again.'));
+            contactForm.reset();
+        });
+    </script>
 
-                const formMessage = document.getElementById('form-message');
-                formMessage.innerHTML = '<div class="alert alert-info">Sending...</div>';
-
-                emailjs.send('service_mlrua6s', 'template_ckdjndc', {
-                    name: this.name.value,
-                    email: this.email.value,
-                    message: this.message.value
-                })
-                .then(() => {
-                    formMessage.innerHTML = '<div class="alert alert-success">Feedback sent successfully! Thank you!</div>';
-                    this.reset();
-                    this.classList.remove('was-validated');
-                })
-                .catch(function(error) {
-                    formMessage.innerHTML = '<div class="alert alert-danger">Error sending feedback: ' + error.text + '</div>';
-                });
-            });
+    <!-- GitHub Snake Animation for Contribution Calendar -->
+    <script src="https://rawcdn.githack.com/Platane/snk/0.3.0/dist/snake.min.js"></script>
+    <script>
+        new Snake('.gh-activity-graph', {
+            speed: 80,
+            color: '#0a0',
+            gameOverText: 'Snake Over!',
+            startOn: 'load'
         });
     </script>
 </body>

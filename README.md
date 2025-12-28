@@ -22,10 +22,10 @@
 
 I'm a **Full-Stack Developer** and **Creative Graphic Designer** passionate about building innovative, user-centric solutions. My expertise spans web and app development, UI/UX design, AI integration, and system automation.
 
-- 🌟 **Currently working on**: Elimu Tech LMS, SnapAura, LaunchVerse, and **TechSafi Website CMS**
-- 🌱 **Learning & Exploring**: Next.js, Tailwind CSS, GraphQL, Advanced Android Development, AI Integrations
+- 🌟 **Currently working on**: Library Management Systems, Bursary Automation, Hyper-Localized Service Platforms, and the **Lines Genius App**
+- 🌱 **Learning & Exploring**: Next.js, Tailwind CSS, GraphQL, and Advanced Android Development
 - 🏆 **Achievements**: Competitor in **TVET National WorldSkills Kenya**
-- 💡 **Mission**: To create scalable, futuristic solutions for real-world problems
+- 💡 **Mission**: To create scalable, impactful solutions for real-world problems
 - 📬 **Contact**: [kennyleyy0@gmail.com](mailto:kennyleyy0@gmail.com)
 
 ---
@@ -62,37 +62,14 @@ I'm a **Full-Stack Developer** and **Creative Graphic Designer** passionate abou
           <img src="images/techsafi.png" alt="TechSafi" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
           <br><b>TechSafi Company Website</b>
         </a>
-        <p>A complete dynamic website with CMS backend functionality</p>
-      </td>
-      <td align="center" width="33%">
-        <a href="https://github.com/mastermind-creat/lms">
-          <img src="images/elimutech.png" alt="Elimu Tech LMS" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
-          <br><b>Elimu Tech LMS</b>
-        </a>
-        <p>Dynamic Learning Management System for schools and institutions with advanced features.</p>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="33%">
-        <a href="https://github.com/mastermind-creat/SnapAura">
-          <img src="images/snapaura.png" alt="SnapAura" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
-          <br><b>SnapAura</b>
-        </a>
-        <p>A futuristic social media platform with AI companions and P2P chat.</p>
-      </td>
-      <td align="center" width="33%">
-        <a href="https://github.com/mastermind-creat/LaunchVerse">
-          <img src="images/launch.png" alt="LaunchVerse" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
-          <br><b>LaunchVerse</b>
-        </a>
-        <p>An innovative platform for launching startups, showcasing portfolios, and connecting creators.</p>
+        <p>A robust SACCO management system with member registration, loan tracking, and secure access.</p>
       </td>
       <td align="center" width="33%">
         <a href="https://github.com/mastermind-creat/Oxygen_Bus">
           <img src="images/stvc.png" alt="STVC AJIRA" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
           <br><b>Ajira Digital club management system</b>
         </a>
-        <p>End-to-end solution for Club Management, Workstation booking and Lab Access enabled</p>
+        <p>An end-to-end solution for bus ticketing and schedule management.</p>
       </td>
     </tr>
   </table>
@@ -143,9 +120,8 @@ I'm a **Full-Stack Developer** and **Creative Graphic Designer** passionate abou
 ## 🌟 Latest Updates
 
 - 🎉 **Lines Genius App** launched with dynamic code generation and EmailJS-powered subscriptions
-- 🛠 Working on **Next.js-powered portfolio** with advanced animations, dark mode, and futuristic UI
+- 🛠 Working on a **Next.js-powered portfolio** with advanced animations and dark mode
 - 📚 Mentoring developers on Git workflows and open-source contributions
-- 🚀 Developing **Elimu Tech LMS, SnapAura, LaunchVerse**
 
 ---
 
