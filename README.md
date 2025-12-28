@@ -1,73 +1,42 @@
 <div align="center">
-  <!-- THE SUPREME HEADER -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&pause=1000&color=7c3aed&center=true&vCenter=true&width=700&lines=%E2%9C%A8+I+AM+WAMBIA+KENNEDY+%E2%9C%A8;The+Mastermind+Behind+The+Code;The+Architect+Of+Digital+Realms;A+Systems+Sorcerer+%26+Craftsman" alt="Typing SVG" />
+  <!-- THE SUPREME WIZARD HEADER -->
+  <img src="https://capsule-render.vercel.app/render?type=thicket&color=0:7c3aed,100:06b6d4&height=250&section=header&text=WAMBIA%20KENNEDY&fontSize=80&animation=twinkling&fontAlignY=35" width="100%" />
   
   <br>
 
-  <!-- WIZARD BANNER -->
-  <img src="https://capsule-render.vercel.app/render?type=soft&color=7c3aed&height=200&section=header&text=MASTERMIND%20CREAT&fontSize=70&animation=fadeIn&fontAlignY=35&fontColor=ffffff" width="100%" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=7c3aed&center=true&vCenter=true&width=700&lines=%E2%9C%A8+THE+FULL-STACK+SORCERER+%E2%9C%A8;%F0%9F%AA%84+Architect+Of+Digital+Realms;%F0%9F%A7%AA+AI+%26+Systems+Alchemist;%F0%9F%9A%80+Mastermind+Behind+The+Code" alt="Typing SVG" />
 
-  <br>
+  <p align="center">
+    <a href="https://wambia-kennedy-portfolio.netlify.app/" target="_blank">
+      <img src="https://img.shields.io/badge/VISIT_THE_SANCTUM-7c3aed?style=for-the-badge&logo=opsgenie&logoColor=white" />
+    </a>
+  </p>
 
-  <a href="https://wambia-kennedy-portfolio.netlify.app/" target="_blank">
-    <img src="https://img.shields.io/badge/ENTER_THE_WIZARD'S_SANCTUM-7c3aed?style=for-the-badge&logo=opsgenie&logoColor=white" alt="Live Portfolio" />
-  </a>
+  <p align="center">
+    <img src="https://komarev.com/ghpvc/?username=mastermind-creat&label=%E2%9A%A1%20Mana%20Refilled&color=7c3aed&style=flat-square" />
+    <img src="https://img.shields.io/github/followers/mastermind-creat?label=Disciples&style=flat-square&color=06b6d4" />
+    <img src="https://img.shields.io/badge/Status-Summoning_Greatness-10b981?style=flat-square" />
+  </p>
 </div>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mastermind-creat&label=⚡%20Mana%20Refilled&color=7c3aed&style=flat-square" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/mastermind-creat?label=Disciples&style=flat-square&color=06b6d4" alt="Followers" />
-  <img src="https://img.shields.io/badge/Status-Mastering_The_Arts-10b981?style=flat-square" alt="Status" />
-</p>
-
 ---
 
-## � The Forbidden Lore (About Me)
+## 📜 The Chronicles of Mastermind (About Me)
 
-I am a **Full-Stack Sorcerer** and **Creative Systems Architect** based in Kenya 🇰🇪. My journey is one of transmuting abstract concepts into high-performance digital artifacts. I thrive at the intersection of **Artificial Intelligence**, **Deep Problem Solving**, and **Premium User Experience**.
-
-- 🔭 **Current Rituals**: Constructing **Elimu Tech LMS**, **SnapAura OS**, and **LaunchVerse** (The Metaverse of Launching Ideas).
-- 🧬 **The Grimoire**: Daily study of **Next.js**, **GraphQL**, **Neural Networks**, and **Advanced Android Sorcery**.
-- � **Legendary Feat**: Recognized as a top-tier competitor in the **TVET National WorldSkills Kenya**.
-- 🪄 **Philosophy**: "Logic is the structure of the universe; Code is the language we use to rewrite it."
-- � **Summoning Ritual**: Reach me via [kennyleyy0@gmail.com](mailto:kennyleyy0@gmail.com).
-
----
-
-## �️ The Repository of Artifacts (Featured Work)
+I am a **Creative Systems Architect** and **Full-Stack Wizard** who crafts high-performance digital artifacts. I believe code is not just instructions—it's a medium for innovation and transformation.
 
 <div align="center">
-  <table>
+  <table border="0">
     <tr>
-      <td align="center" width="50%">
-        <img src="images/genius.png" width="100%" style="border-radius:10px;" />
-        <br><b>🌟 Lines Genius App</b>
-        <br><i>Real-time AI code generation platform with framer-motion sorcery.</i>
-        <br>
-        <a href="https://lines-genius.vercel.app/">[Invoke]</a>
+      <td width="300" align="center">
+        <img src="images/wambia1.png" width="220" style="border-radius: 50%; border: 4px solid #7c3aed; box-shadow: 0 0 20px rgba(124, 58, 237, 0.5);" />
       </td>
-      <td align="center" width="50%">
-        <img src="images/snapaura.png" width="100%" style="border-radius:10px;" />
-        <br><b>💠 SnapAura OS</b>
-        <br><i>An experimental web-based operating system environment.</i>
-        <br>
-        <a href="https://github.com/mastermind-creat/SnapAura-OS">[View Scrolls]</a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="50%">
-        <img src="images/sacco.png" width="100%" style="border-radius:10px;" />
-        <br><b>💰 Kavirondo SACCO</b>
-        <br><i>A fortress for financial management and member registration.</i>
-        <br>
-        <a href="https://github.com/mastermind-creat/new-kavirondo-sacco">[View Scrolls]</a>
-      </td>
-      <td align="center" width="50%">
-        <img src="images/elimutech.png" width="100%" style="border-radius:10px;" />
-        <br><b>🎓 Elimu Tech LMS</b>
-        <br><i>Modernizing sub-Saharan education through digital learning.</i>
-        <br>
-        <a href="https://github.com/mastermind-creat/ElimuTech">[View Scrolls]</a>
+      <td width="500">
+        <p><b>📍 Sanctuary:</b> Kisumu, Kenya 🇰🇪</p>
+        <p><b>🎓 Arcane Knowledge:</b> Programming (Seme TVC)</p>
+        <p><b>🗣️ Tongues:</b> English, Swahili, JavaScript, Python</p>
+        <p><b>🧠 Philosophy:</b> "Logic is my spellbook, Code is my wand."</p>
+        <p><b>😂 Fun Fact:</b> I debug code faster than I can solve a Rubik's cube!</p>
       </td>
     </tr>
   </table>
@@ -75,23 +44,104 @@ I am a **Full-Stack Sorcerer** and **Creative Systems Architect** based in Kenya
 
 ---
 
-## ⚡ The Wizard's Arsenal (Tech Stack)
+## 🏛️ The Great Halls of Offering (Services)
 
-### � Frontend Conjurations
-`React.js` `Next.js` `TypeScript` `TailwindCSS` `Framer Motion` `Bootstrap` `Three.js`
-
-### 🧪 Backend Alchemy
-`Node.js` `Express` `PHP` `Python` `MySQL` `PostgreSQL` `MongoDB` `Firebase`
-
-### 🛡️ Divine Tools
-`Git & GitHub` `Docker` `Figma` `Vercel` `Netlify` `Postman` `Linux (The Native Realm)`
-
-### 🤖 AI & Automations
-`OpenAI API` `TensorFlow` `LangChain` `Agentic Workflows` `Bot Development`
+<div align="center">
+  <table border="0">
+    <tr>
+      <td align="center"><b>📱 App Wizardry</b><br>Native & Web Apps</td>
+      <td align="center"><b>🌐 Web Alchemy</b><br>End-to-End Systems</td>
+      <td align="center"><b>🎨 Illusion Design</b><br>Premium UI/UX</td>
+    </tr>
+    <tr>
+      <td align="center"><b>⚡ Performance Spells</b><br>SEO & Optimization</td>
+      <td align="center"><b>📜 Git Mentorship</b><br>Workflow Mastery</td>
+      <td align="center"><b>🤖 AI Integration</b><br>Intelligent Systems</td>
+    </tr>
+  </table>
+</div>
 
 ---
 
-## 🐍 Evolution Ritual (The Snake)
+## 🏰 Ancient Artifacts (Featured Projects)
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td align="center" width="50%">
+        <img src="images/genius.png" width="100%" style="border-radius:12px; border: 1px solid #7c3aed;" />
+        <br><b>🌟 Lines Genius App</b>
+        <br><i>Real-time AI code generation with framer-motion magic.</i>
+        <br><a href="https://lines-genius.vercel.app/">[Invoke Spell]</a>
+      </td>
+      <td align="center" width="50%">
+        <img src="images/sacco.png" width="100%" style="border-radius:12px; border: 1px solid #06b6d4;" />
+        <br><b>💰 Kavirondo SACCO</b>
+        <br><i>Member registration, loan tracking, and secure financial vaults.</i>
+        <br><a href="https://github.com/mastermind-creat/new-kavirondo-sacco">[View Scrolls]</a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50%">
+        <img src="images/bus.png" width="100%" style="border-radius:12px; border: 1px solid #10b981;" />
+        <br><b>🚌 Bus Booking System</b>
+        <br><i>End-to-end ticketing and schedule management system.</i>
+        <br><a href="https://github.com/mastermind-creat/Oxygen_Bus">[View Scrolls]</a>
+      </td>
+      <td align="center" width="50%">
+        <img src="images/memory.png" width="100%" style="border-radius:12px; border: 1px solid #f59e0b;" />
+        <br><b>🧠 Memory Game Web App</b>
+        <br><i>Challenging neural training app built with React.</i>
+        <br><a href="https://memory-game-two-sable.vercel.app/">[Test Reality]</a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## 🎭 The Gallery of Illusions (Graphic Designs)
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td align="center" width="33%">
+        <img src="images/graphic1.jpg" width="100%" style="border-radius:10px;" />
+        <br><b>Flyer Design</b>
+      </td>
+      <td align="center" width="33%">
+        <img src="images/fullstack.png" width="100%" style="border-radius:10px;" />
+        <br><b>Startup Identity</b>
+      </td>
+      <td align="center" width="33%">
+        <img src="images/ajiraimg.png" width="100%" style="border-radius:10px;" />
+        <br><b>Ajira Training</b>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## 🛡️ The Arsenal of Knowledge (Tech Stack)
+
+<div align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</div>
+
+---
+
+## 🐍 Evolution Ritual (Contribution Snake)
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/mastermind-creat/mastermind-creat/output/github-contribution-grid-snake-dark.svg" alt="GitHub Snake" width="100%" />
@@ -99,7 +149,7 @@ I am a **Full-Stack Sorcerer** and **Creative Systems Architect** based in Kenya
 
 ---
 
-## 📊 Arcane Analytics (GitHub Stats)
+## 📊 Arcane Analytics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=mastermind-creat&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f172a&count_private=true" width="49%" />
@@ -135,6 +185,6 @@ I am a **Full-Stack Sorcerer** and **Creative Systems Architect** based in Kenya
 
 <div align="center">
   <br>
-  <b>“CODE IS THE ART OF REWRITING REALITY.”</b><br>
-  ⭐️ <i>Don't just witness the magic—be part of it. Follow for more arcane creations!</i>
+  <b>🚀 “Code is the painting of the digital future.”</b><br>
+  ⭐️ <i>Liked my work? Leave a star on my repositories!</i>
 </div>
