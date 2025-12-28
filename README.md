@@ -22,11 +22,11 @@
 
 I'm a **Full-Stack Developer** and **Creative Graphic Designer** passionate about building innovative, user-centric solutions. My expertise spans web and app development, UI/UX design, AI integration, and system automation.
 
-- 🌟 **Currently working on**: Elimu Tech LMS, SnapAura, LaunchVerse, Library Management Systems, Bursary Automation, Hyper-Localized Service Platforms, and the **Lines Genius App**  
-- 🌱 **Learning & Exploring**: Next.js, Tailwind CSS, GraphQL, Advanced Android Development, AI Integrations  
-- 🏆 **Achievements**: Competitor in **TVET National WorldSkills Kenya**  
-- 💡 **Mission**: To create scalable, futuristic solutions for real-world problems  
-- 📬 **Contact**: [kennyleyy0@gmail.com](mailto:kennyleyy0@gmail.com)  
+- 🌟 **Currently working on**: Library Management Systems, Bursary Automation, Hyper-Localized Service Platforms, and the **Lines Genius App**
+- 🌱 **Learning & Exploring**: Next.js, Tailwind CSS, GraphQL, and Advanced Android Development
+- 🏆 **Achievements**: Competitor in **TVET National WorldSkills Kenya**
+- 💡 **Mission**: To create scalable, impactful solutions for real-world problems
+- 📬 **Contact**: [kennyleyy0@gmail.com](mailto:kennyleyy0@gmail.com)
 
 ---
 
@@ -52,48 +52,24 @@ I'm a **Full-Stack Developer** and **Creative Graphic Designer** passionate abou
   <table>
     <tr>
       <td align="center" width="33%">
-        <a href="https://github.com/Lines-Genius/Lines-Genius">
-          <img src="images/genius.png" alt="Lines Genius" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
-          <br><b>Lines Genius App</b>
+        <a href="https://github.com/mastermind-creat/LaunchVerse">
+          <img src="images/ecommerce.png" alt="E-Commerce" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
+          <br><b>E-Commerce Website</b>
         </a>
-        <p>A creative coding platform with real-time code generation, subscriptions, and Framer Motion animations.</p>
-      </td>
+        <p>The community-driven E-Commerce Marketplace With backend and fully fucntional</p>
       <td align="center" width="33%">
         <a href="https://github.com/mastermind-creat/new-kavirondo-sacco">
-          <img src="images/sacco.png" alt="Kavirondo SACCO" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
-          <br><b>Kavirondo SACCO</b>
+          <img src="images/techsafi.png" alt="TechSafi" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
+          <br><b>TechSafi Company Website</b>
         </a>
-        <p>Robust SACCO management system with member registration, loan tracking, and secure access.</p>
-      </td>
-      <td align="center" width="33%">
-        <a href="https://github.com/mastermind-creat/ElimuTech-LMS">
-          <img src="images/elimu.png" alt="Elimu Tech LMS" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
-          <br><b>Elimu Tech LMS</b>
-        </a>
-        <p>Dynamic Learning Management System for schools and institutions with advanced features.</p>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="33%">
-        <a href="https://github.com/mastermind-creat/SnapAura">
-          <img src="SnapAura.jpg" alt="SnapAura" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
-          <br><b>SnapAura</b>
-        </a>
-        <p>A futuristic social media platform with AI companions and P2P chat.</p>
-      </td>
-      <td align="center" width="33%">
-        <a href="https://github.com/mastermind-creat/LaunchVerse">
-          <img src="images/launchverse.png" alt="LaunchVerse" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
-          <br><b>LaunchVerse</b>
-        </a>
-        <p>An innovative platform for launching startups, showcasing portfolios, and connecting creators.</p>
+        <p>A robust SACCO management system with member registration, loan tracking, and secure access.</p>
       </td>
       <td align="center" width="33%">
         <a href="https://github.com/mastermind-creat/Oxygen_Bus">
-          <img src="images/bus.png" alt="Bus Booking" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
-          <br><b>Bus Booking System</b>
+          <img src="images/stvc.png" alt="STVC AJIRA" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
+          <br><b>Ajira Digital club management system</b>
         </a>
-        <p>End-to-end solution for bus ticketing and schedule management.</p>
+        <p>An end-to-end solution for bus ticketing and schedule management.</p>
       </td>
     </tr>
   </table>
@@ -143,10 +119,9 @@ I'm a **Full-Stack Developer** and **Creative Graphic Designer** passionate abou
 
 ## 🌟 Latest Updates
 
-- 🎉 **Lines Genius App** launched with dynamic code generation and EmailJS-powered subscriptions  
-- 🛠 Working on **Next.js-powered portfolio** with advanced animations, dark mode, and futuristic UI  
-- 📚 Mentoring developers on Git workflows and open-source contributions  
-- 🚀 Developing **Elimu Tech LMS, SnapAura, LaunchVerse**  
+- 🎉 **Lines Genius App** launched with dynamic code generation and EmailJS-powered subscriptions
+- 🛠 Working on a **Next.js-powered portfolio** with advanced animations and dark mode
+- 📚 Mentoring developers on Git workflows and open-source contributions
 
 ---
 
