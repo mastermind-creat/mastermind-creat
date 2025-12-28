@@ -1,75 +1,73 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=0ea5e9&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Wambia+Kennedy;Full-Stack+Developer+&+Designer;Building+Innovative+Solutions;AI+&+Web+Enthusiast" alt="Typing SVG" />
+  <!-- THE SUPREME HEADER -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&pause=1000&color=7c3aed&center=true&vCenter=true&width=700&lines=%E2%9C%A8+I+AM+WAMBIA+KENNEDY+%E2%9C%A8;The+Mastermind+Behind+The+Code;The+Architect+Of+Digital+Realms;A+Systems+Sorcerer+%26+Craftsman" alt="Typing SVG" />
+  
   <br>
+
+  <!-- WIZARD BANNER -->
+  <img src="https://capsule-render.vercel.app/render?type=soft&color=7c3aed&height=200&section=header&text=MASTERMIND%20CREAT&fontSize=70&animation=fadeIn&fontAlignY=35&fontColor=ffffff" width="100%" />
+
+  <br>
+
   <a href="https://wambia-kennedy-portfolio.netlify.app/" target="_blank">
-    <img src="https://img.shields.io/badge/View_Enhanced_Portfolio-0ea5e9?style=flat-square&logo=netlify&logoColor=white" alt="Enhanced Portfolio" />
+    <img src="https://img.shields.io/badge/ENTER_THE_WIZARD'S_SANCTUM-7c3aed?style=for-the-badge&logo=opsgenie&logoColor=white" alt="Live Portfolio" />
   </a>
 </div>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mastermind-creat&label=Profile%20Views&color=0ea5e9&style=flat-square" alt="Profile Views" />
-  <a href="https://linkedin.com/in/your-profile">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:kennyleyy0@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+  <img src="https://komarev.com/ghpvc/?username=mastermind-creat&label=⚡%20Mana%20Refilled&color=7c3aed&style=flat-square" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/mastermind-creat?label=Disciples&style=flat-square&color=06b6d4" alt="Followers" />
+  <img src="https://img.shields.io/badge/Status-Mastering_The_Arts-10b981?style=flat-square" alt="Status" />
 </p>
 
 ---
 
-## 🚀 About Me
+## � The Forbidden Lore (About Me)
 
-I'm a **Full-Stack Developer** and **Creative Graphic Designer** passionate about building innovative, user-centric solutions. My expertise spans web and app development, UI/UX design, AI integration, and system automation.
+I am a **Full-Stack Sorcerer** and **Creative Systems Architect** based in Kenya 🇰🇪. My journey is one of transmuting abstract concepts into high-performance digital artifacts. I thrive at the intersection of **Artificial Intelligence**, **Deep Problem Solving**, and **Premium User Experience**.
 
-- 🌟 **Currently working on**: Library Management Systems, Bursary Automation, Hyper-Localized Service Platforms, and the **Lines Genius App**
-- 🌱 **Learning & Exploring**: Next.js, Tailwind CSS, GraphQL, and Advanced Android Development
-- 🏆 **Achievements**: Competitor in **TVET National WorldSkills Kenya**
-- 💡 **Mission**: To create scalable, impactful solutions for real-world problems
-- 📬 **Contact**: [kennyleyy0@gmail.com](mailto:kennyleyy0@gmail.com)
+- 🔭 **Current Rituals**: Constructing **Elimu Tech LMS**, **SnapAura OS**, and **LaunchVerse** (The Metaverse of Launching Ideas).
+- 🧬 **The Grimoire**: Daily study of **Next.js**, **GraphQL**, **Neural Networks**, and **Advanced Android Sorcery**.
+- � **Legendary Feat**: Recognized as a top-tier competitor in the **TVET National WorldSkills Kenya**.
+- 🪄 **Philosophy**: "Logic is the structure of the universe; Code is the language we use to rewrite it."
+- � **Summoning Ritual**: Reach me via [kennyleyy0@gmail.com](mailto:kennyleyy0@gmail.com).
 
 ---
 
-## 💼 What I Offer
+## �️ The Repository of Artifacts (Featured Work)
 
 <div align="center">
   <table>
     <tr>
-      <td align="center"><b>📱 App Development</b><br>Native & Web Apps</td>
-      <td align="center"><b>🌐 Full-Stack Web</b><br>End-to-End Solutions</td>
-      <td align="center"><b>🎨 UI/UX Design</b><br>Figma & Prototyping</td>
-      <td align="center"><b>🛠 SEO & Marketing</b><br>Boost Visibility</td>
-      <td align="center"><b>📚 Git Coaching</b><br>Workflow Mastery</td>
-    </tr>
-  </table>
-</div>
-
----
-
-## 🔥 Featured Projects
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="33%">
-        <a href="https://github.com/mastermind-creat/LaunchVerse">
-          <img src="images/ecommerce.png" alt="E-Commerce" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
-          <br><b>E-Commerce Website</b>
-        </a>
-        <p>The community-driven E-Commerce Marketplace With backend and fully fucntional</p>
-      <td align="center" width="33%">
-        <a href="https://github.com/mastermind-creat/new-kavirondo-sacco">
-          <img src="images/techsafi.png" alt="TechSafi" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
-          <br><b>TechSafi Company Website</b>
-        </a>
-        <p>A robust SACCO management system with member registration, loan tracking, and secure access.</p>
+      <td align="center" width="50%">
+        <img src="images/genius.png" width="100%" style="border-radius:10px;" />
+        <br><b>🌟 Lines Genius App</b>
+        <br><i>Real-time AI code generation platform with framer-motion sorcery.</i>
+        <br>
+        <a href="https://lines-genius.vercel.app/">[Invoke]</a>
       </td>
-      <td align="center" width="33%">
-        <a href="https://github.com/mastermind-creat/Oxygen_Bus">
-          <img src="images/stvc.png" alt="STVC AJIRA" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
-          <br><b>Ajira Digital club management system</b>
-        </a>
-        <p>An end-to-end solution for bus ticketing and schedule management.</p>
+      <td align="center" width="50%">
+        <img src="images/snapaura.png" width="100%" style="border-radius:10px;" />
+        <br><b>💠 SnapAura OS</b>
+        <br><i>An experimental web-based operating system environment.</i>
+        <br>
+        <a href="https://github.com/mastermind-creat/SnapAura-OS">[View Scrolls]</a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50%">
+        <img src="images/sacco.png" width="100%" style="border-radius:10px;" />
+        <br><b>💰 Kavirondo SACCO</b>
+        <br><i>A fortress for financial management and member registration.</i>
+        <br>
+        <a href="https://github.com/mastermind-creat/new-kavirondo-sacco">[View Scrolls]</a>
+      </td>
+      <td align="center" width="50%">
+        <img src="images/elimutech.png" width="100%" style="border-radius:10px;" />
+        <br><b>🎓 Elimu Tech LMS</b>
+        <br><i>Modernizing sub-Saharan education through digital learning.</i>
+        <br>
+        <a href="https://github.com/mastermind-creat/ElimuTech">[View Scrolls]</a>
       </td>
     </tr>
   </table>
@@ -77,71 +75,66 @@ I'm a **Full-Stack Developer** and **Creative Graphic Designer** passionate abou
 
 ---
 
-## 🧰 Tech Stack
+## ⚡ The Wizard's Arsenal (Tech Stack)
+
+### � Frontend Conjurations
+`React.js` `Next.js` `TypeScript` `TailwindCSS` `Framer Motion` `Bootstrap` `Three.js`
+
+### 🧪 Backend Alchemy
+`Node.js` `Express` `PHP` `Python` `MySQL` `PostgreSQL` `MongoDB` `Firebase`
+
+### 🛡️ Divine Tools
+`Git & GitHub` `Docker` `Figma` `Vercel` `Netlify` `Postman` `Linux (The Native Realm)`
+
+### 🤖 AI & Automations
+`OpenAI API` `TensorFlow` `LangChain` `Agentic Workflows` `Bot Development`
+
+---
+
+## 🐍 Evolution Ritual (The Snake)
 
 <div align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Framer_Motion-000000?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/AI-Purple?style=flat-square&logo=openai&logoColor=white" alt="AI" />
+  <img src="https://raw.githubusercontent.com/mastermind-creat/mastermind-creat/output/github-contribution-grid-snake-dark.svg" alt="GitHub Snake" width="100%" />
 </div>
 
 ---
 
-## 🐍 GitHub Contribution Snake
+## 📊 Arcane Analytics (GitHub Stats)
 
 <div align="center">
-  ![Snake](https://github.com/mastermind-creat/mastermind-creat/raw/output/github-contribution-snake.svg)
+  <img src="https://github-readme-stats.vercel.app/api?username=mastermind-creat&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f172a&count_private=true" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mastermind-creat&theme=tokyonight&hide_border=true&background=0f172a" width="49%" />
+  <br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mastermind-creat&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f172a" width="49%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mastermind-creat&theme=tokyonight" width="49%" />
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## 🌌 Communion (Connect With Me)
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mastermind-creat&show_icons=true&theme=dark&hide_border=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mastermind-creat&theme=dark&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mastermind-creat&layout=compact&theme=dark&hide_border=true" width="48%" />
-</div>
-  <div align="center">
-  <img src="https://github.com/mastermind-creat/mastermind-creat/raw/output/github-contribution-grid-snake2.svg" alt="GitHub Contributions Snake" />
-</div>
----
-
-## 🌟 Latest Updates
-
-- 🎉 **Lines Genius App** launched with dynamic code generation and EmailJS-powered subscriptions
-- 🛠 Working on a **Next.js-powered portfolio** with advanced animations and dark mode
-- 📚 Mentoring developers on Git workflows and open-source contributions
-
----
-
-## 🌐 Connect with Me
-
-<div align="center">
-  <a href="https://linkedin.com/in/your-profile">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="https://linkedin.com/in/wambia-kennedy">
+    <img src="https://img.shields.io/badge/LinkedIn-7c3aed?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
+  &nbsp;
   <a href="https://instagram.com/mastermindcreat">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
-  <a href="https://x.com/your-profile">
-    <img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X" />
+  &nbsp;
+  <a href="https://github.com/mastermind-creat">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://twitter.com/mastermindcreat">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
   </a>
 </div>
 
 ---
 
 <div align="center">
-  <b>“Code is the canvas of innovation – let’s paint the future together.”</b><br>
-  ⭐️ Thanks for visiting! Let’s collaborate on something extraordinary.
+  <br>
+  <b>“CODE IS THE ART OF REWRITING REALITY.”</b><br>
+  ⭐️ <i>Don't just witness the magic—be part of it. Follow for more arcane creations!</i>
 </div>

@@ -9,10 +9,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="dark-theme">
+    <canvas id="wizard-bg"></canvas>
     <!-- HEADER -->
     <header data-aos="fade-down">
         <nav class="navbar navbar-expand-lg">
@@ -36,13 +38,29 @@
     </header>
 
     <!-- HERO -->
-    <section id="hero" data-aos="fade-up">
-        <div class="gradient-background"></div>
-        <div class="overlay"></div>
+    <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
         <div class="hero-content container text-center">
-            <img src="images/wambia.jpg" alt="Wambia Kennedy" class="profile-img" />
-            <div id="typed"></div>
-            <p class="lead text-white">Crafting innovative solutions through code, AI, and creativity</p>
+            <div class="avatar-container mb-4" data-aos="zoom-in">
+                <img src="images/wambia.jpg" alt="Wambia Kennedy" class="profile-img-new" />
+                <div class="glow-ring"></div>
+            </div>
+            <h1 id="typed-title" class="mb-3"></h1>
+            <p class="lead text-white-50 mb-5">Mastering the arts of Full-Stack, AI, and Digital Sorcery</p>
+            
+            <div class="terminal-window mt-4" data-aos="fade-up">
+                <div class="terminal-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="terminal-title">wizard@mastermind: ~</span>
+                </div>
+                <div class="terminal-body" id="terminal-content">
+                    <div class="terminal-line"><span class="prompt">></span> <span class="command">initialize-spells</span></div>
+                    <div class="terminal-line"><span class="output text-success">Checking systems... [OK]</span></div>
+                    <div class="terminal-line"><span class="output text-info">Loading cognitive modules... [READY]</span></div>
+                    <div class="terminal-line"><span class="prompt">></span> <span class="typing-cursor">_</span></div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -134,32 +152,43 @@
                 <div class="service-card"><i class="fas fa-code-branch"></i><br><b>Git Coaching</b><br>Workflow Mastery</div>
             </div>
         </section>
-        <section id="projects" data-aos="fade-up">
-            <h2><i class="fas fa-code"></i> Featured Projects</h2>
-            <div class="container projects-grid">
-                <div class="project-card">
-                    <img src="images/genius.png" alt="Lines Genius" />
-                    <h3>Lines Genius App</h3>
-                    <p>A creative coding platform with real-time code generation, subscriptions, and Framer Motion animations.</p>
-                    <a href="https://lines-genius.vercel.app/" class="btn btn-primary btn-sm">View Project</a>
+        <section id="github-wizardry" data-aos="fade-up">
+            <h2 class="section-title"><i class="fab fa-github"></i> GitHub Sorcery</h2>
+            
+            <!-- GitHub Stats Card -->
+            <div class="container mb-5">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="stats-card glass-card p-4">
+                            <img src="https://github-readme-stats.vercel.app/api?username=mastermind-creat&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f172a" alt="GitHub Stats" class="img-fluid w-100" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="stats-card glass-card p-4">
+                            <img src="https://github-readme-streak-stats.herokuapp.com/?user=mastermind-creat&theme=tokyonight&hide_border=true&background=0f172a" alt="GitHub Streak" class="img-fluid w-100" />
+                        </div>
+                    </div>
                 </div>
-                <div class="project-card">
-                    <img src="images/sacco.png" alt="Kavirondo SACCO" />
-                    <h3>Kavirondo SACCO</h3>
-                    <p>A robust SACCO management system with member registration, loan tracking, and secure access.</p>
-                    <a href="https://github.com/mastermind-creat/new-kavirondo-sacco" class="btn btn-primary btn-sm">View Project</a>
+            </div>
+
+            <!-- Snake Contribution Graph -->
+            <div class="container mb-5 text-center">
+                <h3 class="mb-4">Contribution Ritual (Snake Animation)</h3>
+                <div class="snake-container glass-card p-2">
+                    <img src="https://raw.githubusercontent.com/mastermind-creat/mastermind-creat/output/github-contribution-grid-snake-dark.svg" alt="GitHub Snake" class="img-fluid w-100" />
                 </div>
-                <div class="project-card">
-                    <img src="images/bus.png" alt="Bus Booking" />
-                    <h3>Bus Booking System</h3>
-                    <p>An end-to-end solution for bus ticketing and schedule management.</p>
-                    <a href="https://github.com/mastermind-creat/Oxygen_Bus" class="btn btn-primary btn-sm">View Project</a>
-                </div>
-                <div class="project-card">
-                    <img src="images/memory.png" alt="Memory Game Web App" />
-                    <h3>Memory Game Web App</h3>
-                    <p>A fun and challenging memory game built with React and Framer Motion. Test your memory and enjoy smooth animations!</p>
-                    <a href="https://memory-game-two-sable.vercel.app/" class="btn btn-primary btn-sm">View Project</a>
+            </div>
+
+            <!-- Dynamic Projects -->
+            <div class="container">
+                <h3 class="text-center mb-4">Latest Repositories</h3>
+                <div id="github-projects-grid" class="projects-grid">
+                    <div class="loading-spinner text-center w-100">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                        <p class="mt-2 text-white-50">Summoning repositories...</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -345,13 +374,53 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3.2.0/dist/email.min.js"></script>
     <script>
-        // Initialize AOS
-        AOS.init({ duration: 1000 });
+        // --- WIZARD BACKGROUND PARTICLES ---
+        const canvas = document.getElementById('wizard-bg');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
 
-        // Typed.js
-        const typed = new Typed('#typed', {
-            strings: ["Hi, I'm Wambia Kennedy.", "Full-Stack Developer.", "Creative Systems Builder.", "AI & EdTech Enthusiast."],
-            typeSpeed: 60,
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+
+        class Particle {
+            constructor() { this.reset(); }
+            reset() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.size = Math.random() * 2 + 0.5;
+                this.speedX = Math.random() * 0.5 - 0.25;
+                this.speedY = Math.random() * 0.5 - 0.25;
+                this.opacity = Math.random() * 0.5 + 0.1;
+            }
+            update() {
+                this.x += this.speedX;
+                this.y += this.speedY;
+                if (this.x < 0 || this.x > canvas.width) this.speedX *= -1;
+                if (this.y < 0 || this.y > canvas.height) this.speedY *= -1;
+            }
+            draw() {
+                ctx.fillStyle = `rgba(124, 58, 237, ${this.opacity})`;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+        for (let i = 0; i < 100; i++) particles.push(new Particle());
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            particles.forEach(p => { p.update(); p.draw(); });
+            requestAnimationFrame(animate);
+        }
+        animate();
+
+        // --- TYPED TITLES ---
+        new Typed('#typed-title', {
+            strings: ["Wambia Kennedy", "the Full-Stack Sorcerer", "the AI Alchemist", "the Systems Architect"],
+            typeSpeed: 50,
             backSpeed: 30,
             loop: true
         });
@@ -361,18 +430,107 @@
         toggleBtn.addEventListener('click', () => {
             document.body.classList.toggle('dark-theme');
         });
+        // --- GITHUB REPOSITORY SORCERY ---
+        const GITHUB_USERNAME = 'mastermind-creat';
+        const projectGrid = document.getElementById('github-projects-grid');
 
-        // Back to top
+        async function fetchGithubRepos() {
+            try {
+                const response = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos?sort=updated&per_page=6`);
+                const repos = await response.json();
+                
+                projectGrid.innerHTML = '';
+                repos.forEach(repo => {
+                    const card = document.createElement('div');
+                    card.className = 'project-card glass-card';
+                    card.innerHTML = `
+                        <div class="repo-header">
+                            <i class="fab fa-github fa-2x" style="color: var(--secondary-color)"></i>
+                            <div class="repo-stars"><i class="fas fa-star text-warning"></i> ${repo.stargazers_count}</div>
+                        </div>
+                        <h4 class="repo-name">${repo.name}</h4>
+                        <p class="repo-desc">${repo.description || 'A mysterious project crafted with logic and magic.'}</p>
+                        <div class="repo-stats">
+                            <span><i class="fas fa-circle" style="color: ${getLangColor(repo.language)}"></i> ${repo.language || 'Hybrid'}</span>
+                            <a href="${repo.html_url}" target="_blank" class="btn btn-sm btn-outline-primary ms-auto">Invoke <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    `;
+                    projectGrid.appendChild(card);
+                });
+            } catch (error) {
+                projectGrid.innerHTML = '<p class="text-danger">Failed to summon repositories. The spirits are silent.</p>';
+            }
+        }
+
+        function getLangColor(lang) {
+            const colors = { 'JavaScript': '#f1e05a', 'TypeScript': '#3178c6', 'Python': '#3572A5', 'PHP': '#4F5D95', 'HTML': '#e34c26' };
+            return colors[lang] || '#8b949e';
+        }
+        fetchGithubRepos();
+
+        // --- TERMINAL ANIMATION ---
+        const terminalContent = document.getElementById('terminal-content');
+        const commands = [
+            { cmd: 'locate mastermind', output: 'Finding master coordinates... KISUMU, KENYA [LOCKED]' },
+            { cmd: 'scan-skills --v', output: 'Python, Node, React, AI... 99% COMPATIBILITY' },
+            { cmd: 'cast-spell "future"', output: 'Calculating possibilities... BRIGHT' }
+        ];
+
+        let cmdIndex = 0;
+        async function runTerminal() {
+            if (cmdIndex >= commands.length) return;
+            
+            const line = document.createElement('div');
+            line.className = 'terminal-line';
+            line.innerHTML = `<span class="prompt">></span> <span class="command" id="cmd-${cmdIndex}"></span>`;
+            terminalContent.insertBefore(line, terminalContent.lastElementChild);
+            
+            await typeEffect(`cmd-${cmdIndex}`, commands[cmdIndex].cmd);
+            
+            const out = document.createElement('div');
+            out.className = 'terminal-line';
+            out.innerHTML = `<span class="output text-success">${commands[cmdIndex].output}</span>`;
+            terminalContent.insertBefore(out, terminalContent.lastElementChild);
+            
+            cmdIndex++;
+            setTimeout(runTerminal, 1500);
+        }
+
+        function typeEffect(elementId, text) {
+            return new Promise(resolve => {
+                let i = 0;
+                const el = document.getElementById(elementId);
+                const timer = setInterval(() => {
+                    el.textContent += text[i];
+                    i++;
+                    if (i >= text.length) {
+                        clearInterval(timer);
+                        resolve();
+                    }
+                }, 50);
+            });
+        }
+        setTimeout(runTerminal, 2000);
+
+        // --- UTILITIES ---
+        AOS.init({ duration: 1000, once: true });
+        
+        const themeBtn = document.getElementById('theme-toggle');
+        themeBtn.addEventListener('click', () => {
+            document.body.classList.toggle('light-mode');
+            const isLight = document.body.classList.contains('light-mode');
+            themeBtn.innerHTML = isLight ? '<i class="fas fa-sun"></i> Theme' : '<i class="fas fa-moon"></i> Theme';
+        });
+
         const backToTop = document.getElementById('back-to-top');
         window.addEventListener('scroll', () => {
-            if(window.scrollY > 300) backToTop.style.display = 'block';
-            else backToTop.style.display = 'none';
+            if(window.scrollY > 500) backToTop.classList.add('show');
+            else backToTop.classList.remove('show');
         });
         backToTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 
         // EmailJS form submission
         emailjs.init("YOUR_EMAILJS_USER_ID");
-        const contactForm = document.getElementById('contact-form');
         contactForm.addEventListener('submit', (e) => {
             e.preventDefault();
             emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', contactForm)
