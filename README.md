@@ -607,9 +607,63 @@ I am actively seeking collaborations, advisory roles, and challenging problems t
 
 <br/>
 
-[![Visitor Map](https://map.geovisit.io/map/6f9b8c7d0e1a2b3c4d5e6f7a8b9c0d1e.png)](https://geovisit.io)
+![Visitor Map](https://view-counter.vercel.app/map/mastermind-creat)
 
 </div>
+
+<br/>
+
+## 🎨 Digital Art & UI/UX Gallery
+
+**Visual excellence in product design, branding, and graphic communication**
+
+<details>
+<summary><b>✨ Click to Expand Gallery</b></summary>
+
+<br/>
+
+<div align="center">
+
+<table>
+<tr>
+<td width="33%">
+<img src="./images/graphic1.jpg" alt="Design 1" width="100%" style="border-radius: 10px;"/>
+<p align="center"><b>Branding & Identity</b></p>
+</td>
+<td width="33%">
+<img src="./images/worldskills.jpg" alt="Design 2" width="100%" style="border-radius: 10px;"/>
+<p align="center"><b>Digital Illustration</b></p>
+</td>
+<td width="33%">
+<img src="./images/wambia1.png" alt="Design 3" width="100%" style="border-radius: 10px;"/>
+<p align="center"><b>UI/UX Concepts</b></p>
+</td>
+</tr>
+<tr>
+<td width="33%">
+<img src="./images/techsafi.png" alt="Design 4" width="100%" style="border-radius: 10px;"/>
+<p align="center"><b>Web Portals</b></p>
+</td>
+<td width="33%">
+<img src="./images/ajiraimg.png" alt="Design 5" width="100%" style="border-radius: 10px;"/>
+<p align="center"><b>Community Systems</b></p>
+</td>
+<td width="33%">
+<img src="./images/stvc.png" alt="Design 6" width="100%" style="border-radius: 10px;"/>
+<p align="center"><b>Mobile Experiences</b></p>
+</td>
+</tr>
+</table>
+
+<br/>
+
+<a href="https://github.com/mastermind-creat?tab=repositories">
+  <img src="https://img.shields.io/badge/View_More_on_GitHub-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="UI/UX Repo" />
+</a>
+
+</div>
+
+</details>
 
 <br/>
 
