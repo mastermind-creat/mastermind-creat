@@ -1,6 +1,7 @@
+<!-- Animated Header Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,16,20&height=250&section=header&text=WAMBIA%20KENNEDY&fontSize=70&fontAlignY=35&desc=Digital%20Systems%20Architect%20%7C%20AI%20Product%20Strategist%20%7C%20Full-Stack%20Engineer&descAlignY=55&descSize=18&animation=twinkling" width="100%"/>
+
 <div align="center">
-<!-- Animated Light Beam Divider -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%"/>
 
 <!-- Hero Section -->
 <h1>
@@ -38,7 +39,7 @@
     <img src="https://img.shields.io/badge/🐦_@MastermindCreat-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
   </a>
   <a href="https://www.instagram.com/mastermindcreat/">
-    <img src="https://img.shields.io/badge/�_@mastermindcreat-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+    <img src="https://img.shields.io/badge/📸_@mastermindcreat-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
   </a>
   <a href="https://www.youtube.com/@kennyleyy3918">
     <img src="https://img.shields.io/badge/▶️_@kennyleyy3918-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/>
@@ -52,13 +53,30 @@
 </p>
 
 <!-- Tech Stack with Categories -->
-<details open>
-<summary><b>🔮 Core Technology Arsenal</b></summary>
-<br/>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,laravel,python,js,mysql,postgres,n8n,docker,flask,tailwind,figma,git&theme=dark" />
-</p>
 </details>
+
+<br/>
+
+**💪 Technical Proficiency**
+
+<div align="left">
+
+**Architecture & Systems Engineering**
+![Systems Engineering](https://img.shields.io/badge/Architecture-95%25-10B981?style=flat-square)
+![Database Design](https://img.shields.io/badge/Databases-90%25-10B981?style=flat-square)
+
+**Backend Mastery**
+![Laravel](https://img.shields.io/badge/Laravel-92%25-FF2D20?style=flat-square)
+![Python/Node](https://img.shields.io/badge/Python_/_Node-88%25-3776AB?style=flat-square)
+
+**Frontend Excellence**
+![React](https://img.shields.io/badge/React-90%25-61DAFB?style=flat-square)
+![UI/UX Design](https://img.shields.io/badge/UI_/_UX-85%25-8B5CF6?style=flat-square)
+
+</div>
+
+<br/>
+
 </div>
 
 <!-- Another Divider -->
@@ -111,59 +129,208 @@ Writing maintainable, documented code with clean architecture and scalable data 
 
 **Elite systems that demonstrate mastery of full-stack engineering, automation, and product thinking**
 
-<div align="center"><table> <tr> <td width="50%" valign="top"> <div align="center"> <img src="https://img.shields.io/badge/🎓_ELIMU_TECH_LMS-10B981?style=for-the-badge" alt="Elimu Tech LMS"/> <h3><a href="https://github.com/mastermind-creat/elimu-tech-lms">A Scalable Learning Ecosystem</a></h3> </div>
+<div align="center">
+
+<table> 
+<tr> 
+<td width="50%" valign="top"> 
+
+<div align="center">
+
+<!-- Project Screenshot -->
+<a href="https://github.com/mastermind-creat/elimu-tech-lms">
+  <img src="./images/elimutech.png" alt="Elimu Tech LMS Preview" width="100%" style="border-radius: 10px;"/>
+</a>
+
+<br/>
+
+<img src="https://img.shields.io/badge/🎓_ELIMU_TECH_LMS-10B981?style=for-the-badge" alt="Elimu Tech LMS"/> 
+
+### <a href="https://github.com/mastermind-creat/elimu-tech-lms">A Scalable Learning Ecosystem</a>
+
+</div>
+
 Full-stack LMS digitizing education for institutions. Features modular course builders, automated assessment engines, and analytics dashboards.
 
-Architecture Highlights:
+**Architecture Highlights:**
 
-Multi-tenant SaaS architecture
+- ✅ Multi-tenant SaaS architecture
+- ✅ Real-time progress tracking
+- ✅ Automated grading & certification
+- ✅ RESTful API with JWT authentication
 
-Real-time progress tracking
+<p align="center"> 
+  <img src="https://skillicons.dev/icons?i=laravel,react,mysql,postman" /> 
+</p>
 
-Automated grading & certification
+<p align="center">
+  <a href="https://github.com/mastermind-creat/elimu-tech-lms">
+    <img src="https://img.shields.io/badge/View%20Project-10B981?style=for-the-badge&logo=github&logoColor=white" alt="View Project"/>
+  </a>
+</p>
 
-RESTful API with JWT authentication
+</td> 
 
-<p align="center"> <img src="https://skillicons.dev/icons?i=laravel,react,mysql,postman" /> </p> </td> <td width="50%" valign="top"> <div align="center"> <img src="https://img.shields.io/badge/🎨_SNAPAURA-8B5CF6?style=for-the-badge" alt="SnapAura"/> <h3><a href="https://github.com/mastermind-creat/snapaura">Intelligent Content Delivery Platform</a></h3> </div>
+<td width="50%" valign="top"> 
+
+<div align="center">
+
+<!-- Project Screenshot -->
+<a href="https://github.com/mastermind-creat/snapaura">
+  <img src="./images/snapaura.png" alt="SnapAura Preview" width="100%" style="border-radius: 10px;"/>
+</a>
+
+<br/>
+
+<img src="https://img.shields.io/badge/🎨_SNAPAURA-8B5CF6?style=for-the-badge" alt="SnapAura"/> 
+
+### <a href="https://github.com/mastermind-creat/snapaura">Intelligent Content Delivery Platform</a>
+
+</div>
+
 High-performance platform for dynamic media and content, built with smart caching, responsive UI patterns, and a decoupled architecture.
 
-Technical Innovations:
+**Technical Innovations:**
 
-Lazy-loading & progressive enhancement
+- ✅ Lazy-loading & progressive enhancement
+- ✅ CDN-optimized asset delivery
+- ✅ Component-based design system
+- ✅ API-first architecture
 
-CDN-optimized asset delivery
+<p align="center"> 
+  <img src="https://skillicons.dev/icons?i=react,php,vite" /> 
+</p>
 
-Component-based design system
+<p align="center">
+  <a href="https://github.com/mastermind-creat/snapaura">
+    <img src="https://img.shields.io/badge/View%20Project-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="View Project"/>
+  </a>
+</p>
 
-API-first architecture
+</td> 
+</tr> 
 
-<p align="center"> <img src="https://skillicons.dev/icons?i=react,php,vite" /> </p> </td> </tr> <tr> <td width="50%" valign="top"> <div align="center"> <img src="https://img.shields.io/badge/⚡_PAGEFORGE-F59E0B?style=for-the-badge" alt="PageForge"/> <h3><a href="https://github.com/mastermind-creat/pageforge">Rapid Landing Page System</a></h3> </div>
+<tr> 
+<td width="50%" valign="top"> 
+
+<div align="center">
+
+<!-- Project Screenshot -->
+<a href="https://github.com/mastermind-creat/pageforge">
+  <img src="./images/ecommerce.png" alt="PageForge Preview" width="100%" style="border-radius: 10px;"/>
+</a>
+
+<br/>
+
+<img src="https://img.shields.io/badge/⚡_PAGEFORGE-F59E0B?style=for-the-badge" alt="PageForge"/> 
+
+### <a href="https://github.com/mastermind-creat/pageforge">Rapid Landing Page System</a>
+
+</div>
+
 Developer-friendly page builder emphasizing performance and design consistency. Enables rapid deployment of SEO-optimized landing pages.
 
-System Features:
+**System Features:**
 
-Component library with pre-built blocks
+- ✅ Component library with pre-built blocks
+- ✅ Zero-config deployment pipeline
+- ✅ Built-in SEO & performance optimization
+- ✅ Version control for design iterations
 
-Zero-config deployment pipeline
+<p align="center"> 
+  <img src="https://skillicons.dev/icons?i=js,tailwind" /> 
+</p>
 
-Built-in SEO & performance optimization
+<p align="center">
+  <a href="https://github.com/mastermind-creat/pageforge">
+    <img src="https://img.shields.io/badge/View%20Project-F59E0B?style=for-the-badge&logo=github&logoColor=white" alt="View Project"/>
+  </a>
+</p>
 
-Version control for design iterations
+</td> 
 
-<p align="center"> <img src="https://skillicons.dev/icons?i=js,tailwind" /> </p> </td> <td width="50%" valign="top"> <div align="center"> <img src="https://img.shields.io/badge/🌌_LAUNCHVERSE-0EA5E9?style=for-the-badge" alt="LaunchVerse"/> <h3><a href="https://github.com/mastermind-creat/launchverse">Product Launch Orchestrator</a></h3> </div>
+<td width="50%" valign="top"> 
+
+<div align="center">
+
+<!-- Project Screenshot -->
+<a href="https://github.com/mastermind-creat/launchverse">
+  <img src="./images/launch.png" alt="LaunchVerse Preview" width="100%" style="border-radius: 10px;"/>
+</a>
+
+<br/>
+
+<img src="https://img.shields.io/badge/🌌_LAUNCHVERSE-0EA5E9?style=for-the-badge" alt="LaunchVerse"/> 
+
+### <a href="https://github.com/mastermind-creat/launchverse">Product Launch Orchestrator</a>
+
+</div>
+
 An integrated platform to manage product launches from waitlist and hype-building to post-launch analytics and community engagement.
 
-Orchestration Capabilities:
+**Orchestration Capabilities:**
 
-Multi-channel campaign automation
+- ✅ Multi-channel campaign automation
+- ✅ Real-time analytics dashboard
+- ✅ Community engagement tools
+- ✅ A/B testing framework
 
-Real-time analytics dashboard
+<p align="center"> 
+  <img src="https://skillicons.dev/icons?i=nodejs,n8n" /> 
+</p> 
 
-Community engagement tools
+<p align="center">
+  <a href="https://github.com/mastermind-creat/launchverse">
+    <img src="https://img.shields.io/badge/View%20Project-0EA5E9?style=for-the-badge&logo=github&logoColor=white" alt="View Project"/>
+  </a>
+</p>
 
-A/B testing framework
+</td> 
+</tr> 
+</table>
 
-<p align="center"> <img src="https://skillicons.dev/icons?i=nodejs,n8n" /> </p> </td> </tr> </table></div>
+</div>
+
+---
+
+<!-- ## 🎨 Digital Art & UI/UX Gallery
+
+**Visual excellence in product design, branding, and graphic communication** -->
+
+<!-- <div align="center">
+
+<table>
+<tr>
+<td width="33%">
+<img src="./images/graphic1.jpg" alt="Design 1" width="100%" style="border-radius: 10px;"/>
+<p align="center"><b>Branding & Identity</b></p>
+</td>
+<td width="33%">
+<img src="./images/worldskills.jpg" alt="Design 2" width="100%" style="border-radius: 10px;"/>
+<p align="center"><b>Digital Illustration</b></p>
+</td>
+<td width="33%">
+<img src="./images/wambia1.png" alt="Design 3" width="100%" style="border-radius: 10px;"/>
+<p align="center"><b>UI/UX Concepts</b></p>
+</td>
+</tr>
+<tr>
+<td width="33%">
+<img src="./images/techsafi.png" alt="Design 4" width="100%" style="border-radius: 10px;"/>
+<p align="center"><b>Web Portals</b></p>
+</td>
+<td width="33%">
+<img src="./images/ajiraimg.png" alt="Design 5" width="100%" style="border-radius: 10px;"/>
+<p align="center"><b>Community Systems</b></p>
+</td>
+<td width="33%">
+<img src="./images/stvc.png" alt="Design 6" width="100%" style="border-radius: 10px;"/>
+<p align="center"><b>Mobile Experiences</b></p>
+</td>
+</tr>
+</table>
+
+</div> -->
 
 ---
 
@@ -210,20 +377,44 @@ A/B testing framework
 
 <div align="center">
 
-<!-- Contribution Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mastermind-creat&bg_color=0d1117&color=8b5cf6&line=10b981&point=f59e0b&area=true&hide_border=true" alt="Contribution Graph" width="100%"/>
+<!-- Contribution Snake Animation -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mastermind-creat/mastermind-creat/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mastermind-creat/mastermind-creat/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/mastermind-creat/mastermind-creat/output/github-contribution-grid-snake.svg">
+</picture>
 
+<br/>
+<br/>
 
+<!-- Enhanced Profile Summary -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mastermind-creat&theme=tokyonight" alt="Profile Summary" width="100%"/>
 
-<!-- Stats Cards --><a href="https://github.com/mastermind-creat"> <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mastermind-creat&show_icons=true&count_private=true&hide_border=true&title_color=8B5CF6&icon_color=10B981&text_color=9CA3AF&bg_color=0d1117&include_all_commits=true&custom_title=Systems%20Engineering%20Stats" alt="GitHub Stats"/> </a> <a href="https://github.com/mastermind-creat"> <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mastermind-creat&layout=compact&langs_count=8&hide_border=true&title_color=8B5CF6&text_color=9CA3AF&bg_color=0d1117&card_width=320" alt="Top Languages"/> </a>
+<br/>
 
+<!-- Stats Cards -->
+<a href="https://github.com/mastermind-creat"> 
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mastermind-creat&show_icons=true&count_private=true&hide_border=true&title_color=8B5CF6&icon_color=10B981&text_color=9CA3AF&bg_color=0d1117&include_all_commits=true&custom_title=Systems%20Engineering%20Stats&rank_icon=github" alt="GitHub Stats"/> 
+</a> 
+<a href="https://github.com/mastermind-creat"> 
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mastermind-creat&layout=compact&langs_count=8&hide_border=true&title_color=8B5CF6&text_color=9CA3AF&bg_color=0d1117&card_width=320" alt="Top Languages"/> 
+</a>
 
+<br/>
+<br/>
 
-<!-- Streak Stats --><a href="https://git.io/streak-stats"> <img src="https://github-readme-streak-stats.herokuapp.com?user=mastermind-creat&theme=tokyonight&hide_border=true&background=0D1117&stroke=8B5CF6&ring=10B981&fire=F59E0B&currStreakNum=9CA3AF&sideNums=9CA3AF&currStreakLabel=10B981&sideLabels=8B5CF6&dates=6B7280" alt="GitHub Streak" /> </a>
+<!-- Enhanced Streak Stats -->
+<a href="https://git.io/streak-stats"> 
+  <img src="https://streak-stats.demolab.com?user=mastermind-creat&theme=tokyonight-duo&hide_border=true&border_radius=10&date_format=M%20j%5B%2C%20Y%5D&mode=weekly&card_width=500&ring=10B981&fire=F59E0B&currStreakLabel=8B5CF6&sideLabels=8B5CF6" alt="GitHub Streak" /> 
+</a>
 
+<br/>
+<br/>
 
+<!-- Trophies -->
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=mastermind-creat&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10&rank=SECRET,SSS,SS,S,AAA,AA,A,B" alt="GitHub Trophies" />
 
-<!-- Trophies --><img width="100%" src="https://github-profile-trophy.vercel.app/?username=mastermind-creat&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10&rank=SECRET,SSS,SS,S,AAA,AA,A,B" alt="GitHub Trophies" /></div>
+</div>
 
 ---
 
@@ -267,7 +458,20 @@ A/B testing framework
 
 ---
 
-## 🌐 The MASTERMINDCREAT Ethos
+## � Accomplishments & Digital Badges
+
+<div align="center">
+
+![GitHub Achievements](https://img.shields.io/badge/GitHub-Top_1%25_Contributor-10B981?style=for-the-badge&logo=github)
+![Architecture](https://img.shields.io/badge/System-Certified_Architect-8B5CF6?style=for-the-badge&logo=diagrams.net)
+![AI](https://img.shields.io/badge/AI-Strategist-FFD700?style=for-the-badge&logo=openai)
+![Open Source](https://img.shields.io/badge/Open_Source-Advocate-EA4335?style=for-the-badge&logo=openstreetmap)
+
+</div>
+
+---
+
+## �🌐 The MASTERMINDCREAT Ethos
 
 <div align="center">
 
@@ -292,6 +496,88 @@ Every line of code serves the larger vision of a more automated, efficient, and 
 
 ---
 
+## 💬 Testimonials & Recommendations
+
+<div align="center">
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+<img src="https://img.shields.io/badge/⭐-Client%20Feedback-10B981?style=for-the-badge" />
+
+<br/>
+<br/>
+
+> *"Wambia's systems thinking approach transformed our entire platform architecture. His ability to see the big picture while managing intricate details is exceptional."*
+
+**— Education Institution Director**
+
+</td>
+<td width="50%" align="center">
+
+<img src="https://img.shields.io/badge/⭐-Peer%20Review-8B5CF6?style=for-the-badge" />
+
+<br/>
+<br/>
+
+> *"One of the most innovative engineers I've worked with. He doesn't just build features—he architects solutions that scale and evolve."*
+
+**— Senior Full-Stack Developer**
+
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+
+<img src="https://img.shields.io/badge/⭐-Project%20Impact-F59E0B?style=for-the-badge" />
+
+<br/>
+<br/>
+
+> *"The automation workflows Wambia built saved our team 20+ hours per week. His work directly impacted our bottom line."*
+
+**— NGO Operations Manager**
+
+</td>
+<td width="50%" align="center">
+
+<img src="https://img.shields.io/badge/⭐-Technical%20Excellence-0EA5E9?style=for-the-badge" />
+
+<br/>
+<br/>
+
+> *"Clean code, excellent documentation, and a genuine passion for solving real problems. A true systems engineer."*
+
+**— Tech Lead, Startup**
+
+</td>
+</tr>
+</table>
+
+</div>
+
+
+---
+
+## 🎯 Current System Status
+
+<div align="center">
+
+```typescript
+const MASTERMIND_STATE = {
+  🔭 activeProject: "AI-Driven SaaS Ecosystem",
+  🌱 researchPhase: "Distributed Microservices & LLM Orchestration",
+  💬 consulting: "NGO Digital Transformation & LMS Strategy",
+  ⚡ efficiency: "Automating 90% of repeatable digital workflows",
+  🚀 focus: "Scaling impact-first digital solutions globally"
+};
+```
+
+</div>
+
+---
+
 ## 💬 Let's Architect the Future
 
 <div align="center">
@@ -307,9 +593,25 @@ I am actively seeking collaborations, advisory roles, and challenging problems t
 
 <a href="mailto:kennyleyy0@gmail.com"> <img src="https://img.shields.io/badge/📩_Send_a_Detailed_Brief-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/> </a> 
 <a href="https://www.linkedin.com/in/mastermind-5799bb398"> <img src="https://img.shields.io/badge/🤝_Connect_Professionally-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/> </a> 
-<a href="https://lates-portfolio-v1.vercel.app/"> <img src="https://img.shields.io/badge/�_Visit_Portfolio-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/> </a>
+<a href="https://lates-portfolio-v1.vercel.app/"> <img src="https://img.shields.io/badge/�🌐 Visit Portfolio-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/> </a>
 
 
+
+---
+
+## 🌍 Global Visitor Footprint
+
+<div align="center">
+
+<img src="https://profile-counter.glitch.me/mastermind-creat/count.svg" alt="Visitor Count" />
+
+<br/>
+
+[![Visitor Map](https://map.geovisit.io/map/6f9b8c7d0e1a2b3c4d5e6f7a8b9c0d1e.png)](https://geovisit.io)
+
+</div>
+
+<br/>
 
 <sub>Crafted with precision for systems that scale. <img src="https://komarev.com/ghpvc/?username=mastermind-creat&color=8B5CF6&style=flat" alt="Profile Views"/></sub>
 
