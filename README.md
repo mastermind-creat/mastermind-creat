@@ -32,7 +32,7 @@
   <a href="mailto:kennyleyy0@gmail.com">
     <img src="https://img.shields.io/badge/📧_Direct_Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://lates-portfolio-v1.vercel.app/">
+  <a href="https://wk-three.vercel.app/">
     <img src="https://img.shields.io/badge/🌐_Portfolio-8B5CF6?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
   </a>
   <a href="https://x.com/MastermindCreat">
