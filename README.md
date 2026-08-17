@@ -32,7 +32,7 @@
   <a href="mailto:kennyleyy0@gmail.com">
     <img src="https://img.shields.io/badge/📧_Direct_Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://lates-portfolio-v1.vercel.app/">
+  <a href="https://wk-three.vercel.app/">
     <img src="https://img.shields.io/badge/🌐_Portfolio-8B5CF6?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
   </a>
   <a href="https://x.com/MastermindCreat">
@@ -673,7 +673,7 @@ I am actively seeking collaborations, advisory roles, and challenging problems t
 
 <a href="mailto:kennyleyy0@gmail.com"> <img src="https://img.shields.io/badge/📩_Send_a_Detailed_Brief-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/> </a> 
 <a href="https://www.linkedin.com/in/mastermind-5799bb398"> <img src="https://img.shields.io/badge/🤝_Connect_Professionally-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/> </a> 
-<a href="https://lates-portfolio-v1.vercel.app/"> <img src="https://img.shields.io/badge/🌐_Visit_Portfolio-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/> </a>
+<a href="https://wk-three.vercel.app/"> <img src="https://img.shields.io/badge/🌐_Visit_Portfolio-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/> </a>
 
 </div>
 
