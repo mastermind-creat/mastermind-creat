@@ -1,18 +1,18 @@
 <!-- Animated Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,16,20&height=250&section=header&text=WAMBIA%20KENNEDY&fontSize=70&fontAlignY=35&desc=Digital%20Systems%20Architect%20%7C%20AI%20Product%20Strategist%20%7C%20Full-Stack%20Engineer&descAlignY=55&descSize=18&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:8B5CF6,50:06B6D4,100:10B981&height=250&section=header&text=WAMBIA%20KENNEDY&fontSize=70&fontAlignY=35&desc=Digital%20Systems%20Architect%20%7C%20AI%20Product%20Strategist%20%7C%20Full-Stack%20Engineer&descAlignY=55&descSize=18&animation=twinkling" width="100%"/>
 
 <div align="center">
 
 <!-- Hero Section -->
 <h1>
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=40&duration=4000&pause=500&color=10B981&center=true&vCenter=true&width=600&height=70&lines=%F0%9F%92%BB+WAMBIA+KENNEDY;%F0%9F%9A%80+Digital+Systems+Architect;%F0%9F%93%A6+AI+Product+Strategist" alt="Animated Title" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=40&duration=4000&pause=500&color=10B981&center=true&vCenter=true&width=600&height=70&lines=%F0%9F%92%BB+WAMBIA+KENNEDY;%F0%9F%9A%80+Digital+Systems+Architect;%F0%9F%A4%96+AI+Systems+Builder;%F0%9F%8F%AA+Creator+of+Sokomtaa;%F0%9F%93%A6+Architect+of+Scalable+Products" alt="Animated Title" />
   </a>
 </h1>
 
 <!-- Subtitle -->
 <h3>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=800&lines=Building+Intelligent%2C+Scalable+%26+Impact-First+Digital+Ecosystems;Where+Engineering+Excellence+Meets+Strategic+Vision;Architecting+Tomorrow's+Systems+Today" alt="Subtitle" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=800&lines=Building+Intelligent%2C+Scalable+%26+Impact-First+Digital+Ecosystems;Powering+Sokomtaa+%E2%80%94+AI+Marketplace+for+Neighbourhoods;Where+Engineering+Excellence+Meets+Strategic+Vision;Architecting+Tomorrow's+Systems+Today" alt="Subtitle" />
 </h3>
 
 <!-- Profile Stats with Animations -->
@@ -123,7 +123,7 @@ Writing maintainable, documented code with clean architecture and scalable data 
 
 </td> </tr> </table>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%"/>
 
 ## 🏆 Featured Architecture Projects
 
@@ -287,6 +287,46 @@ An integrated platform to manage product launches from waitlist and hype-buildin
 
 </td> 
 </tr> 
+
+<tr> 
+<td width="100%" colspan="2" valign="top"> 
+
+<div align="center">
+
+<!-- Project Screenshot -->
+<a href="https://sokomtaa.co.ke">
+  <img src="./images/sokomtaa.png" alt="Sokomtaa Preview" width="100%" style="border-radius: 10px;"/>
+</a>
+
+<br/>
+
+<img src="https://img.shields.io/badge/🏪_SOKOMTAA-8B5CF6?style=for-the-badge" alt="Sokomtaa"/> 
+
+### <a href="https://sokomtaa.co.ke">AI Marketplace for Neighbourhoods</a>
+
+</div>
+
+AI-powered neighbourhood marketplace connecting local businesses, services, and residents with real-time recommendations and intelligent search.
+
+**Architecture Highlights:**
+
+- ✅ AI-powered personalized recommendations
+- ✅ Neighbourhood-scoped localized marketplace
+- ✅ Real-time listings & dynamic inventory
+- ✅ Modular full-stack API architecture
+
+<p align="center"> 
+  <img src="https://skillicons.dev/icons?i=nextjs,nodejs,postgresql" /> 
+</p>
+
+<p align="center">
+  <a href="https://sokomtaa.co.ke">
+    <img src="https://img.shields.io/badge/View%20Project-8B5CF6?style=for-the-badge&logo=google-chrome&logoColor=white" alt="View Project"/>
+  </a>
+</p>
+
+</td> 
+</tr> 
 </table>
 
 </div>
@@ -332,7 +372,7 @@ An integrated platform to manage product launches from waitlist and hype-buildin
 
 </div> -->
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%"/>
 
 ## 🔗 Other Impactful Systems
 
@@ -346,10 +386,11 @@ An integrated platform to manage product launches from waitlist and hype-buildin
 | Student Result Management | Academic tracking with automated report generation | Laravel, React | 2000+ students |
 | WhatsApp Automation Bots | Intelligent customer support & engagement workflows | Python, Twilio API | 90% response automation |
 | Memoria | Browser-based cognitive training game | JavaScript, LocalStorage | 5K+ gameplay sessions |
+| Gameverse | Gamers arena — browser-based multi-game collection & gaming ecosystem | JavaScript, React, Canvas API | Live gaming platform at [epldls.vercel.app](https://epldls.vercel.app) |
 
 </details>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%"/>
 
 ## 🛠️ Technology Radar <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30">
 
@@ -357,17 +398,57 @@ An integrated platform to manage product launches from waitlist and hype-buildin
 
 <div align="center">
 
-<img src="./images/tech-radar.svg" alt="Technology Radar" width="100%"/>
-
-</div>
-
-<div align="center"> 
-
-**🗃️ Data Layer | 🚀 DevOps & Infrastructure | 📊 Analytics** 
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=16&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&width=700&lines=%E2%9A%A1+Adopt%3A+Production-Ready+Stack;%F0%9F%94%AC+Trial%3A+Actively+Evaluating;%F0%9F%95%AD+Assess%3A+On+the+Horizon;%F0%9F%94%B4+On+Hold+%2F+Legacy%3A+Maintenance" alt="Tech Radar Subtitle" />
 
 <br/>
+<br/>
 
-<img src="https://skillicons.dev/icons?i=mysql,postgresql,redis,docker,linux,git,github,nginx,prometheus,grafana&theme=dark" /> 
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+
+![ADOPT](https://img.shields.io/badge/🟢_ADOPT-Production_Ready-10B981?style=for-the-badge)
+
+<br/>
+<br/>
+
+<img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,laravel,python,ts,js,postgresql,mysql,redis,docker,linux&theme=dark" />
+
+</td>
+<td width="50%" valign="top" align="center">
+
+![TRIAL](https://img.shields.io/badge/🟡_TRIAL-Actively_Evaluating-F59E0B?style=for-the-badge)
+
+<br/>
+<br/>
+
+<img src="https://skillicons.dev/icons?i=graphql,prisma,supabase,mongodb,prometheus,grafana&theme=dark" />
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+
+![ASSESS](https://img.shields.io/badge/🔵_ASSESS-On_the_Horizon-0EA5E9?style=for-the-badge)
+
+<br/>
+<br/>
+
+<img src="https://skillicons.dev/icons?i=figma,vite,firebase,vercel&theme=dark" />
+
+</td>
+<td width="50%" valign="top" align="center">
+
+![ON HOLD / LEGACY](https://img.shields.io/badge/🔴_ON_HOLD_/_LEGACY-Maintenance-8B5CF6?style=for-the-badge)
+
+<br/>
+<br/>
+
+<img src="https://skillicons.dev/icons?i=nginx,git,github,php,postman&theme=dark" />
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -416,7 +497,7 @@ An integrated platform to manage product launches from waitlist and hype-buildin
 
 </div>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%"/>
 
 ## 🧭 Strategic Engineering Roadmap (2026+)
 
@@ -428,7 +509,7 @@ An integrated platform to manage product launches from waitlist and hype-buildin
 
 </div>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%"/>
 
 ## 📍 Current Active Priorities
 
@@ -456,9 +537,9 @@ An integrated platform to manage product launches from waitlist and hype-buildin
 
 </td> </tr> </table>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%"/>
 
-## � Accomplishments & Digital Badges
+## 🏆 Accomplishments & Digital Badges
 
 <div align="center">
 
@@ -469,9 +550,9 @@ An integrated platform to manage product launches from waitlist and hype-buildin
 
 </div>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%"/>
 
-## �🌐 The MASTERMINDCREAT Ethos
+## 🌐 The MASTERMINDCREAT Ethos
 
 <div align="center">
 
@@ -494,7 +575,7 @@ Every line of code serves the larger vision of a more automated, efficient, and 
 
 </div>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%"/>
 
 ## 💬 Testimonials & Recommendations
 
@@ -557,8 +638,7 @@ Every line of code serves the larger vision of a more automated, efficient, and 
 
 </div>
 
-
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%"/>
 
 ## 🎯 Current System Status
 
@@ -576,7 +656,7 @@ const MASTERMIND_STATE = {
 
 </div>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%"/>
 
 ## 💬 Let's Architect the Future
 
@@ -593,11 +673,11 @@ I am actively seeking collaborations, advisory roles, and challenging problems t
 
 <a href="mailto:kennyleyy0@gmail.com"> <img src="https://img.shields.io/badge/📩_Send_a_Detailed_Brief-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/> </a> 
 <a href="https://www.linkedin.com/in/mastermind-5799bb398"> <img src="https://img.shields.io/badge/🤝_Connect_Professionally-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/> </a> 
-<a href="https://lates-portfolio-v1.vercel.app/"> <img src="https://img.shields.io/badge/�🌐 Visit Portfolio-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/> </a>
+<a href="https://lates-portfolio-v1.vercel.app/"> <img src="https://img.shields.io/badge/🌐_Visit_Portfolio-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/> </a>
 
+</div>
 
-
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%"/>
 
 ## 🌍 Global Visitor Footprint
 
@@ -611,7 +691,7 @@ I am actively seeking collaborations, advisory roles, and challenging problems t
 
 </div>
 
-<br/>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%"/>
 
 ## 🎨 Digital Art & UI/UX Gallery
 
@@ -669,4 +749,7 @@ I am actively seeking collaborations, advisory roles, and challenging problems t
 
 <sub>Crafted with precision for systems that scale. <img src="https://komarev.com/ghpvc/?username=mastermind-creat&color=8B5CF6&style=flat" alt="Profile Views"/></sub>
 
-</div><!-- Wave Animation Footer --><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer" width="100%"/>
+</div>
+
+<!-- Wave Animation Footer -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:8B5CF6,50:06B6D4,100:10B981&height=100&section=footer" width="100%"/>
