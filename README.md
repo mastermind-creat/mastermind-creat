@@ -55,7 +55,7 @@
 <!-- ▓▓▓ ABOUT ▓▓▓ -->
 <a id="about" name="about"></a>
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:EF4444,50:0A0A0A,100:22C55E&height=48&section=header&text=ABOUT%20%26%20PHILOSOPHY&fontSize=20&fontColor=ffffff&fontAlignY=58&animation=fadeIn" width="100%" alt="ABOUT &amp; PHILOSOPHY" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:EF4444,50:0A0A0A,100:22C55E&height=48&section=header&text=ABOUT%20PHILOSOPHY&fontSize=20&fontColor=ffffff&fontAlignY=58&animation=fadeIn" width="100%" alt="ABOUT &amp; PHILOSOPHY" />
 </div>
 
 <div align="center">
