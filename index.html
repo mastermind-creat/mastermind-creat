@@ -1,53 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Wambia Kennedy's portfolio showcasing full-stack development, EdTech, AI systems, and creative graphic design">
-    <meta name="keywords" content="Wambia Kennedy, full-stack developer, graphic designer, EdTech, AI, portfolio, web development, UI/UX design">
-    <title>Wambia Kennedy - Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Wambia Kennedy — Digital Systems Architect building intelligent, scalable, impact-first digital ecosystems. Full-stack engineer, AI strategist, and creative designer." />
+    <meta name="keywords" content="Wambia Kennedy, full-stack developer, systems architect, AI, EdTech, portfolio, web development, UI/UX design, Kenya" />
+    <meta name="theme-color" content="#050505" />
+    <title>Wambia Kennedy — Digital Systems Architect</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Scroll reveal -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body class="dark-theme">
-    <canvas id="wizard-bg"></canvas>
-    <!-- HEADER -->
-    <header data-aos="fade-down">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="#hero"><i class="fas fa-home"></i> Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about"><i class="fas fa-user"></i> About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services"><i class="fas fa-briefcase"></i> Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects"><i class="fas fa-code"></i> Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#design"><i class="fas fa-paint-brush"></i> Design Work</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
-                        <li class="nav-item"><button id="theme-toggle" class="nav-link"><i class="fas fa-moon"></i> Theme</button></li>
-                    </ul>
-                </div>
-            </div>
+    <!-- Scroll progress -->
+    <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-bar"></span></div>
+
+    <!-- Cursor glow (desktop only) -->
+    <div class="cursor-glow" id="cursor-glow" aria-hidden="true"></div>
+
+    <!-- Animated background stack -->
+    <canvas id="bg-canvas" aria-hidden="true"></canvas>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-orbs" aria-hidden="true"><span></span><span></span><span></span></div>
+
+    <!-- Preloader -->
+    <div class="loader" id="loader">
+        <div class="loader-ring"></div>
+        <span>Initializing systems…</span>
+    </div>
+
+    <!-- HEADER / NAV -->
+    <header class="site-header" id="site-header">
+        <a class="brand" href="#hero">
+            <span class="brand-mark">◈</span>
+            <span>MASTERMIND</span>
+        </a>
+
+        <nav class="nav" id="nav">
+            <a href="#hero" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#github" class="nav-link">Projects</a>
+            <a href="#design" class="nav-link">Design</a>
+            <a href="#contact" class="nav-link">Contact</a>
         </nav>
+
+        <div class="header-actions">
+            <button id="theme-toggle" class="theme-btn" aria-label="Toggle colour theme">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
     </header>
 
     <!-- HERO -->
-    <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
-        <div class="hero-content container text-center">
-            <div class="avatar-container mb-4" data-aos="zoom-in">
-                <img src="images/wambia.jpg" alt="Wambia Kennedy" class="profile-img-new" />
-                <div class="glow-ring"></div>
+    <section id="hero" class="hero">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-content">
+            <div class="avatar-orbit" data-aos="zoom-in">
+                <img src="images/wambia.jpg" alt="Wambia Kennedy" class="profile-img" />
+                <span class="orbit-ring"></span>
+                <span class="orbit-ring ring-2"></span>
+                <span class="orbit-badge"><i class="fas fa-code"></i></span>
             </div>
-            <h1 id="typed-title" class="mb-3"></h1>
-            <p class="lead text-white-50 mb-5">Mastering the arts of Full-Stack, AI, and Digital Sorcery</p>
-            
-            <div class="terminal-window mt-4" data-aos="fade-up">
+
+            <p class="hero-eyebrow" data-aos="fade-up"><span class="pulse-dot"></span> Available for select collaborations</p>
+            <h1 id="typed-title" class="hero-title" data-aos="fade-up"></h1>
+            <p class="hero-subtitle" data-aos="fade-up">
+                Mastering the arts of <span class="grad-text">Full-Stack</span>, <span class="grad-text">AI</span>,
+                and <span class="grad-text">Digital Sorcery</span>.
+            </p>
+
+            <div class="hero-cta" data-aos="fade-up">
+                <a href="#github" class="btn btn-primary">View Projects <i class="fas fa-arrow-right"></i></a>
+                <a href="#contact" class="btn btn-ghost">Let's Talk <i class="fas fa-comment-dots"></i></a>
+            </div>
+
+            <div class="terminal-window" data-aos="fade-up">
                 <div class="terminal-header">
                     <span class="dot red"></span>
                     <span class="dot yellow"></span>
@@ -55,500 +96,581 @@
                     <span class="terminal-title">wizard@mastermind: ~</span>
                 </div>
                 <div class="terminal-body" id="terminal-content">
-                    <div class="terminal-line"><span class="prompt">></span> <span class="command">initialize-spells</span></div>
-                    <div class="terminal-line"><span class="output text-success">Checking systems... [OK]</span></div>
-                    <div class="terminal-line"><span class="output text-info">Loading cognitive modules... [READY]</span></div>
-                    <div class="terminal-line"><span class="prompt">></span> <span class="typing-cursor">_</span></div>
+                    <div class="terminal-line"><span class="prompt">&gt;</span> <span class="command">initialize-spells</span></div>
+                    <div class="terminal-line"><span class="output ok">Checking systems... [OK]</span></div>
+                    <div class="terminal-line"><span class="output info">Loading cognitive modules... [READY]</span></div>
+                    <div class="terminal-line"><span class="prompt">&gt;</span> <span class="typing-cursor">_</span></div>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-cue" aria-label="Scroll to about"><span></span></a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <div class="section-head" data-aos="fade-up">
+            <span class="section-eyebrow">01 — Identity</span>
+            <h2 class="section-title"><i class="fas fa-user-astronaut"></i> About Me</h2>
+        </div>
+
+        <div class="about-layout">
+            <article class="glass-card profile-card" data-aos="fade-right">
+                <h3 class="card-title"><i class="fas fa-id-card"></i> Personal Info</h3>
+                <img src="images/wambia1.png" alt="Wambia Kennedy" class="about-avatar" />
+                <h4 class="profile-name">Wambia Kennedy</h4>
+                <ul class="info-list">
+                    <li><i class="fas fa-map-marker-alt"></i> Kisumu, Kenya</li>
+                    <li><i class="fas fa-graduation-cap"></i> Seme TVC, Programming</li>
+                    <li><i class="fas fa-language"></i> English, Swahili</li>
+                    <li><i class="fas fa-phone"></i> <a href="tel:+254743394373">+254 743 394 373</a></li>
+                    <li><i class="fas fa-venus-mars"></i> Male</li>
+                    <li><i class="fas fa-gamepad"></i> Coding, Designing, Gaming, Reading</li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:kennyleyy0@gmail.com">kennyleyy0@gmail.com</a></li>
+                </ul>
+                <p class="fun-fact"><i class="fas fa-smile-beam"></i> Fun fact: I debug code faster than I can solve a Rubik's cube.</p>
+            </article>
+
+            <div class="about-main" data-aos="fade-left">
+                <article class="glass-card bio-card">
+                    <p>
+                        I'm a <b>Full-Stack Developer</b> and <b>Creative Systems Builder</b> passionate about building
+                        scalable EdTech and AI solutions that transform ideas into impactful platforms.
+                    </p>
+                </article>
+
+                <div class="mini-grid">
+                    <article class="glass-card mini-card">
+                        <i class="fas fa-star"></i>
+                        <div><b>Currently working on</b><br />Elimu Tech LMS, SnapAura OS, LaunchVerse</div>
+                    </article>
+                    <article class="glass-card mini-card">
+                        <i class="fas fa-seedling"></i>
+                        <div><b>Learning &amp; exploring</b><br />React, Next.js, Tailwind CSS, GraphQL, Advanced Android</div>
+                    </article>
+                    <article class="glass-card mini-card">
+                        <i class="fas fa-trophy"></i>
+                        <div><b>Achievements</b><br />Competitor · TVET National WorldSkills Kenya</div>
+                    </article>
+                    <article class="glass-card mini-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <div><b>Mission</b><br />Build scalable, impactful systems solving real-world problems</div>
+                    </article>
+                </div>
+
+                <div class="about-gif" data-aos="fade-up">
+                    <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Programming animation" loading="lazy" />
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ABOUT -->
-    <section id="about" data-aos="fade-up">
-        <h2><i class="fas fa-user"></i> About Me</h2>
-        <div class="container">
-            <div class="row justify-content-center mb-4">
-                <div class="col-lg-8">
-                    <div class="about-card text-center p-4 mb-3" style="max-width:600px;margin:auto;">
-                        <h3 style="color:var(--primary-color);font-size:1.3rem;margin-bottom:18px;"><i class="fas fa-id-card"></i> Personal Information</h3>
-                        <img src="images/wambia1.png" alt="Wambia Kennedy" class="profile-img mb-3" style="width:120px;height:120px;box-shadow:0 2px 10px rgba(0,0,0,0.18);" />
-                        <h4 style="margin-bottom: 10px; color: var(--primary-color); font-size: 1.2rem;">Wambia Kennedy</h4>
-                        <ul class="list-unstyled" style="font-size: 1.05rem; margin-bottom: 0;">
-                            <li><i class="fas fa-map-marker-alt" style="color:var(--secondary-color);"></i> Kisumu, Kenya</li>
-                            <li><i class="fas fa-graduation-cap" style="color:var(--secondary-color);"></i> Seme TVC, Programming</li>
-                            <li><i class="fas fa-language" style="color:var(--secondary-color);"></i> English, Swahili</li>
-                            <li><i class="fas fa-phone" style="color:var(--secondary-color);"></i> <a href="tel:+254743394373" style="color:var(--link-color);">+254 743 394 373</a></li>
-                            <li><i class="fas fa-venus-mars" style="color:var(--secondary-color);"></i> Male</li>
-                            <li><i class="fas fa-gamepad" style="color:var(--secondary-color);"></i> Coding, Designing, Gaming, Reading</li>
-                            <li><i class="fas fa-smile-beam" style="color:var(--secondary-color);"></i> Fun Fact: I debug code faster than I can solve a Rubik's cube 😂</li>
-                            <li><i class="fas fa-envelope" style="color:var(--secondary-color);"></i> <a href="mailto:kennyleyy0@gmail.com" style="color:var(--link-color);">kennyleyy0@gmail.com</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+    <!-- SERVICES -->
+    <section id="services" class="section">
+        <div class="section-head" data-aos="fade-up">
+            <span class="section-eyebrow">02 — Capabilities</span>
+            <h2 class="section-title"><i class="fas fa-briefcase"></i> What I Offer</h2>
+        </div>
 
-            <div class="row align-items-center">
-                <div class="col-lg-8 mb-4">
-                    <div class="about-card" style="min-height: 340px;">
-                        <p class="mb-3" style="font-size:1.1rem;">
-                            I'm a <b>Full-Stack Developer</b> and <b>Creative Systems Builder</b> passionate about building scalable EdTech and AI solutions that transform ideas into impactful platforms.
-                        </p>
-                        <div class="row g-3">
-                            <div class="col-md-6 col-lg-6">
-                                <div class="about-card h-100 d-flex align-items-center">
-                                    <i class="fas fa-star fa-2x me-3" style="color:var(--secondary-color);"></i>
-                                    <div>
-                                        <b>Currently working on</b>:<br>
-                                        <b>Elimu Tech LMS</b>, <b>SnapAura OS</b>, <b>LaunchVerse</b>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-6">
-                                <div class="about-card h-100 d-flex align-items-center">
-                                    <i class="fas fa-seedling fa-2x me-3" style="color:var(--accent-color);"></i>
-                                    <div>
-                                        <b>Learning & Exploring</b>:<br>
-                                        React, Next.js, Tailwind CSS, GraphQL, Advanced Android Dev
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-6">
-                                <div class="about-card h-100 d-flex align-items-center">
-                                    <i class="fas fa-trophy fa-2x me-3" style="color:gold;"></i>
-                                    <div>
-                                        <b>Achievements</b>:<br>
-                                        Competitor in <b>TVET National WorldSkills Kenya</b>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-6">
-                                <div class="about-card h-100 d-flex align-items-center">
-                                    <i class="fas fa-lightbulb fa-2x me-3" style="color:var(--primary-color);"></i>
-                                    <div>
-                                        <b>Mission</b>:<br>
-                                        Build scalable, impactful systems solving real-world problems
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Programming GIF -->
-                    <div class="col-lg-4 d-flex justify-content-right align-items-right mb-4">
-                        <div class="about-card p-2" style="background:transparent;box-shadow:none;">
-                            <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Programming Animation" style="width:450px; height:450px; border-radius:16px; box-shadow:0 2px 16px rgba(0,0,0,0.18); object-fit:cover;" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="services" data-aos="fade-up">
-            <h2><i class="fas fa-briefcase"></i> What I Offer</h2>
-            <div class="container services-grid">
-                <div class="service-card"><i class="fas fa-mobile-alt"></i><br><b>App Development</b><br>Native & Web Apps</div>
-                <div class="service-card"><i class="fas fa-globe"></i><br><b>Full-Stack Web</b><br>End-to-End Solutions</div>
-                <div class="service-card"><i class="fas fa-paint-brush"></i><br><b>UI/UX Design</b><br>Figma & Prototyping</div>
-                <div class="service-card"><i class="fas fa-search"></i><br><b>SEO & Marketing</b><br>Boost Visibility</div>
-                <div class="service-card"><i class="fas fa-code-branch"></i><br><b>Git Coaching</b><br>Workflow Mastery</div>
-            </div>
-        </section>
-        <section id="github-wizardry" data-aos="fade-up">
+        <div class="service-grid">
+            <article class="glass-card service-card" data-aos="fade-up">
+                <span class="service-icon"><i class="fas fa-mobile-alt"></i></span>
+                <h3>App Development</h3>
+                <p>Native &amp; web applications engineered for performance and delight.</p>
+            </article>
+            <article class="glass-card service-card" data-aos="fade-up" data-aos-delay="80">
+                <span class="service-icon"><i class="fas fa-globe"></i></span>
+                <h3>Full-Stack Web</h3>
+                <p>End-to-end solutions — from resilient APIs to pixel-perfect UIs.</p>
+            </article>
+            <article class="glass-card service-card" data-aos="fade-up" data-aos-delay="160">
+                <span class="service-icon"><i class="fas fa-paint-brush"></i></span>
+                <h3>UI / UX Design</h3>
+                <p>Figma-driven interfaces and prototyping that convert and engage.</p>
+            </article>
+            <article class="glass-card service-card" data-aos="fade-up" data-aos-delay="240">
+                <span class="service-icon"><i class="fas fa-search"></i></span>
+                <h3>SEO &amp; Marketing</h3>
+                <p>Boost visibility and reach with technical SEO and smart funnels.</p>
+            </article>
+            <article class="glass-card service-card" data-aos="fade-up" data-aos-delay="320">
+                <span class="service-icon"><i class="fas fa-code-branch"></i></span>
+                <h3>Git Coaching</h3>
+                <p>Master clean workflows, collaboration, and open-source contributions.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- GITHUB WIZARDRY -->
+    <section id="github" class="section">
+        <div class="section-head" data-aos="fade-up">
+            <span class="section-eyebrow">03 — Open Source</span>
             <h2 class="section-title"><i class="fab fa-github"></i> GitHub Sorcery</h2>
-            
-            <!-- GitHub Stats Card -->
-            <div class="container mb-5">
-                <div class="row g-4 justify-content-center">
-                    <div class="col-lg-6">
-                        <div class="stats-card glass-card p-4">
-                            <img src="https://github-readme-stats.vercel.app/api?username=mastermind-creat&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f172a" alt="GitHub Stats" class="img-fluid w-100" />
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="stats-card glass-card p-4">
-                            <img src="https://github-readme-streak-stats.herokuapp.com/?user=mastermind-creat&theme=tokyonight&hide_border=true&background=0f172a" alt="GitHub Streak" class="img-fluid w-100" />
-                        </div>
-                    </div>
-                </div>
-            </div>
+        </div>
 
-            <!-- Snake Contribution Graph -->
-            <div class="container mb-5 text-center">
-                <h3 class="mb-4">Contribution Ritual (Snake Animation)</h3>
-                <div class="snake-container glass-card p-2">
-                    <img src="https://raw.githubusercontent.com/mastermind-creat/mastermind-creat/output/github-contribution-grid-snake-dark.svg" alt="GitHub Snake" class="img-fluid w-100" />
-                </div>
-            </div>
+        <div class="stats-grid">
+            <article class="glass-card stats-card" data-aos="fade-up">
+                <img src="https://github-readme-stats.vercel.app/api?username=mastermind-creat&show_icons=true&theme=tokyonight&hide_border=true&bg_color=05010f&title_color=8B5CF6&icon_color=10B981&text_color=9CA3AF" alt="GitHub Stats" loading="lazy" />
+            </article>
+            <article class="glass-card stats-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="https://github-readme-streak-stats.herokuapp.com/?user=mastermind-creat&theme=tokyonight&hide_border=true&background=05010f&ring=8B5CF6&fire=F59E0B&currStreakLabel=10B981" alt="GitHub Streak" loading="lazy" />
+            </article>
+        </div>
 
-            <!-- Dynamic Projects -->
-            <div class="container">
-                <h3 class="text-center mb-4">Latest Repositories</h3>
-                <div id="github-projects-grid" class="projects-grid">
-                    <div class="loading-spinner text-center w-100">
-                        <div class="spinner-border text-primary" role="status">
-                            <span class="visually-hidden">Loading...</span>
-                        </div>
-                        <p class="mt-2 text-white-50">Summoning repositories...</p>
-                    </div>
-                </div>
+        <div class="section-head small" data-aos="fade-up">
+            <h3 class="subtitle"><i class="fas fa-wave-square"></i> Contribution Ritual</h3>
+        </div>
+        <div class="snake-wrap glass-card" data-aos="fade-up">
+            <img src="https://raw.githubusercontent.com/mastermind-creat/mastermind-creat/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake" loading="lazy" />
+        </div>
+
+        <div class="section-head small" data-aos="fade-up">
+            <h3 class="subtitle"><i class="fas fa-cubes"></i> Latest Repositories</h3>
+        </div>
+        <div id="github-projects-grid" class="project-grid">
+            <div class="loading-spinner">
+                <div class="spinner"></div>
+                <p>Summoning repositories…</p>
             </div>
-        </section>
-        <section id="design" data-aos="fade-up">
-            <h2><i class="fas fa-paint-brush"></i> Graphic Design Work</h2>
-            <div class="container design-grid">
-                <div class="design-card">
-                    <img src="images/graphic1.jpg" alt="UI/UX Design" />
-                    <h3>Flyer Design</h3>
-                    <p>Designed intuitive flyer for Seme TVC Ajira Digital club.</p>
-                </div>
-                <div class="design-card">
-                    <img src="images/fullstack.png" alt="Logo Design" />
-                    <h3>Fullstack Foundry</h3>
-                    <p>Created a vibrant flyer for a local web development startup training, blending modern typography and bold colors.</p>
-                </div>
-                <div class="design-card">
-                    <img src="images/ajiraimg.png" alt="Branding Project" />
-                    <h3>Ajira Digital Training</h3>
-                    <p>Developed a complete poster, for training section in Seme TVC Ajira Digital Club</p>
-                </div>
+        </div>
+    </section>
+
+    <!-- DESIGN -->
+    <section id="design" class="section">
+        <div class="section-head" data-aos="fade-up">
+            <span class="section-eyebrow">04 — Visual Craft</span>
+            <h2 class="section-title"><i class="fas fa-paint-brush"></i> Graphic Design Work</h2>
+        </div>
+
+        <div class="design-grid">
+            <article class="glass-card design-card" data-aos="fade-up">
+                <div class="design-media"><img src="images/graphic1.jpg" alt="Flyer design" loading="lazy" /></div>
+                <h3>Flyer Design</h3>
+                <p>Designed an intuitive flyer for the Seme TVC Ajira Digital club.</p>
+            </article>
+            <article class="glass-card design-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="design-media"><img src="images/fullstack.png" alt="Fullstack Foundry" loading="lazy" /></div>
+                <h3>Fullstack Foundry</h3>
+                <p>A vibrant flyer for a local web development startup training — bold colours, modern type.</p>
+            </article>
+            <article class="glass-card design-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="design-media"><img src="images/ajiraimg.png" alt="Ajira Digital Training" loading="lazy" /></div>
+                <h3>Ajira Digital Training</h3>
+                <p>Complete poster suite for the training section of Seme TVC Ajira Digital Club.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- TECH STACK -->
+    <section id="tech-stack" class="section">
+        <div class="section-head" data-aos="fade-up">
+            <span class="section-eyebrow">05 — Arsenal</span>
+            <h2 class="section-title"><i class="fas fa-tools"></i> Tech Stack</h2>
+        </div>
+
+        <div class="marquee" data-aos="fade-up">
+            <div class="marquee-track">
+                <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+                <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+                <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+                <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+                <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+                <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+                <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+                <img src="https://img.shields.io/badge/Framer_Motion-000000?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
+                <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+                <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+                <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+                <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+                <!-- duplicate for seamless loop -->
+                <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="" aria-hidden="true" />
+                <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="" aria-hidden="true" />
+                <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="" aria-hidden="true" />
+                <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="" aria-hidden="true" />
+                <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="" aria-hidden="true" />
+                <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="" aria-hidden="true" />
+                <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="" aria-hidden="true" />
+                <img src="https://img.shields.io/badge/Framer_Motion-000000?style=for-the-badge&logo=framer&logoColor=white" alt="" aria-hidden="true" />
+                <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="" aria-hidden="true" />
+                <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="" aria-hidden="true" />
+                <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="" aria-hidden="true" />
+                <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="" aria-hidden="true" />
             </div>
-        </section>
-        <section id="tech-stack" data-aos="fade-up">
-            <h2><i class="fas fa-tools"></i> Tech Stack</h2>
-            <div class="container tech-grid">
-                <div class="tech-card">
-                    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" class="tech-badge" />
-                </div>
-                <div class="tech-card">
-                    <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" class="tech-badge" />
-                </div>
-                <div class="tech-card">
-                    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" class="tech-badge" />
-                </div>
-                <div class="tech-card">
-                    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" class="tech-badge" />
-                </div>
-                <div class="tech-card">
-                    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" class="tech-badge" />
-                </div>
-                <div class="tech-card">
-                    <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" class="tech-badge" />
-                </div>
-                <div class="tech-card">
-                    <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" class="tech-badge" />
-                </div>
-                <div class="tech-card">
-                    <img src="https://img.shields.io/badge/Framer_Motion-000000?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" class="tech-badge" />
-                </div>
-                <div class="tech-card">
-                    <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" class="tech-badge" />
-                </div>
-                <div class="tech-card">
-                    <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" class="tech-badge" />
-                </div>
-                <div class="tech-card">
-                    <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" class="tech-badge" />
-                </div>
-                <div class="tech-card">
-                    <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" class="tech-badge" />
-                </div>
-            </div>
-        </section>
-        <section id="updates" data-aos="fade-up">
-            <h2><i class="fas fa-bullhorn"></i> Latest Updates</h2>
-            <div class="container">
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="update-card shadow-sm p-4 h-100 text-center animate__animated animate__fadeInUp" style="border-radius: 16px; background: var(--card-background); transition: transform 0.3s;">
-                            <div class="update-icon mb-3" style="font-size:2.2rem; color:var(--primary-color);">
-                                <i class="fas fa-rocket"></i>
-                            </div>
-                            <h5 class="mb-2" style="color:var(--primary-color);">Lines Genius App</h5>
-                            <p style="font-size:1rem;">Launched with dynamic code generation and EmailJS-powered subscriptions.</p>
-                        </div>
+        </div>
+    </section>
+
+    <!-- UPDATES -->
+    <section id="updates" class="section">
+        <div class="section-head" data-aos="fade-up">
+            <span class="section-eyebrow">06 — Now</span>
+            <h2 class="section-title"><i class="fas fa-bullhorn"></i> Latest Updates</h2>
+        </div>
+
+        <div class="update-grid">
+            <article class="glass-card update-card" data-aos="fade-up">
+                <span class="update-icon violet"><i class="fas fa-rocket"></i></span>
+                <h3>Lines Genius App</h3>
+                <p>Launched with dynamic code generation and EmailJS-powered subscriptions.</p>
+            </article>
+            <article class="glass-card update-card" data-aos="fade-up" data-aos-delay="80">
+                <span class="update-icon cyan"><i class="fas fa-tools"></i></span>
+                <h3>Next.js Portfolio</h3>
+                <p>Working on a modern portfolio with advanced animations and dark mode.</p>
+            </article>
+            <article class="glass-card update-card" data-aos="fade-up" data-aos-delay="160">
+                <span class="update-icon gold"><i class="fas fa-chalkboard-teacher"></i></span>
+                <h3>Mentoring</h3>
+                <p>Mentoring developers on Git workflows and open-source contributions.</p>
+            </article>
+            <article class="glass-card update-card" data-aos="fade-up" data-aos-delay="240">
+                <span class="update-icon coral"><i class="fas fa-brain"></i></span>
+                <h3>Memory Game Web App</h3>
+                <p>A fun, challenging Memory Game built with React and Framer Motion.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <div class="section-head" data-aos="fade-up">
+            <span class="section-eyebrow">07 — Signal</span>
+            <h2 class="section-title"><i class="fas fa-envelope"></i> Get In Touch</h2>
+        </div>
+
+        <div class="contact-layout">
+            <article class="glass-card contact-card" data-aos="fade-right">
+                <h3 class="card-title"><i class="fas fa-paper-plane"></i> Send a Message</h3>
+                <form id="contact-form" name="contact" method="POST" data-netlify="true" novalidate>
+                    <input type="hidden" name="form-name" value="contact" />
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required />
                     </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="update-card shadow-sm p-4 h-100 text-center animate__animated animate__fadeInUp" style="border-radius: 16px; background: var(--card-background); transition: transform 0.3s; animation-delay: 0.1s;">
-                            <div class="update-icon mb-3" style="font-size:2.2rem; color:var(--accent-color);">
-                                <i class="fas fa-tools"></i>
-                            </div>
-                            <h5 class="mb-2" style="color:var(--accent-color);">Next.js Portfolio</h5>
-                            <p style="font-size:1rem;">Working on a modern portfolio with advanced animations and dark mode.</p>
-                        </div>
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required />
                     </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="update-card shadow-sm p-4 h-100 text-center animate__animated animate__fadeInUp" style="border-radius: 16px; background: var(--card-background); transition: transform 0.3s; animation-delay: 0.2s;">
-                            <div class="update-icon mb-3" style="font-size:2.2rem; color:gold;">
-                                <i class="fas fa-chalkboard-teacher"></i>
-                            </div>
-                            <h5 class="mb-2" style="color:gold;">Mentoring</h5>
-                            <p style="font-size:1rem;">Mentoring developers on Git workflows and open-source contributions.</p>
-                        </div>
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
                     </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="update-card shadow-sm p-4 h-100 text-center animate__animated animate__fadeInUp" style="border-radius: 16px; background: var(--card-background); transition: transform 0.3s; animation-delay: 0.3s;">
-                            <div class="update-icon mb-3" style="font-size:2.2rem; color:#ff6b6b;">
-                                <i class="fas fa-brain"></i>
-                            </div>
-                            <h5 class="mb-2" style="color:#ff6b6b;">Memory Game Web App</h5>
-                            <p style="font-size:1rem;">Currently building a fun and challenging Memory Game web app using React and Framer Motion!</p>
-                        </div>
-                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+                    <div id="form-message" class="form-message" role="status"></div>
+                </form>
+            </article>
+
+            <article class="glass-card follow-card" data-aos="fade-left">
+                <h3 class="card-title"><i class="fas fa-user-plus"></i> Follow Me</h3>
+                <p class="muted">Stay connected and follow the build journey.</p>
+                <div class="social-grid">
+                    <a href="https://github.com/mastermind-creat" target="_blank" rel="noopener" class="social-btn github">
+                        <i class="fab fa-github"></i><span>GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/mastermind-5799bb398" target="_blank" rel="noopener" class="social-btn linkedin">
+                        <i class="fab fa-linkedin"></i><span>LinkedIn</span>
+                    </a>
+                    <a href="https://instagram.com/mastermindcreat" target="_blank" rel="noopener" class="social-btn instagram">
+                        <i class="fab fa-instagram"></i><span>Instagram</span>
+                    </a>
+                    <a href="https://x.com/MastermindCreat" target="_blank" rel="noopener" class="social-btn twitter">
+                        <i class="fab fa-x-twitter"></i><span>X / Twitter</span>
+                    </a>
                 </div>
-            </div>
-        </section>
-        <section id="contact-follow" data-aos="fade-up">
-            <div class="container">
-                <div class="row align-items-stretch g-4">
-                    <!-- Contact Me Section -->
-                    <div class="col-lg-6 mb-4">
-                        <section id="contact-inner">
-                            <h2><i class="fas fa-envelope"></i> Contact Me</h2>
-                            <form id="contact-form" name="contact" method="POST" data-netlify="true" class="needs-validation" novalidate>
-                                <input type="hidden" name="form-name" value="contact" />
-                                <div class="mb-3">
-                                    <label for="name" class="form-label">Name</label>
-                                    <input type="text" id="name" name="name" class="form-control" required />
-                                </div>
-                                <div class="mb-3">
-                                    <label for="email" class="form-label">Email</label>
-                                    <input type="email" id="email" name="email" class="form-control" required />
-                                </div>
-                                <div class="mb-3">
-                                    <label for="message" class="form-label">Message</label>
-                                    <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Send <i class="fas fa-paper-plane"></i></button>
-                                <div id="form-message" class="mt-3"></div>
-                            </form>
-                        </section>
-                    </div>
-                    <!-- Follow Me Section -->
-                    <div class="col-lg-6 mb-4 d-flex align-items-center justify-content-center">
-                        <section id="follow-me" class="w-100">
-                            <div class="about-card text-center p-4 h-100" style="border-radius: 16px;">
-                                <h2 style="font-size:1.5rem;color:var(--primary-color);"><i class="fas fa-user-plus"></i> Follow Me</h2>
-                                <p class="mb-4" style="font-size:1.1rem;">Stay connected and follow me on:</p>
-                                <div class="d-flex flex-wrap justify-content-center gap-4 mb-3">
-                                    <a href="https://github.com/mastermind-creat" target="_blank" rel="noopener" class="follow-btn" title="GitHub">
-                                        <i class="fab fa-github fa-2x"></i>
-                                        <span class="d-block mt-2">GitHub</span>
-                                    </a>
-                                    <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener" class="follow-btn" title="LinkedIn">
-                                        <i class="fab fa-linkedin fa-2x linkedin-icon"></i>
-                                        <span class="d-block mt-2">LinkedIn</span>
-                                    </a>
-                                    <a href="https://instagram.com/mastermindcreat" target="_blank" rel="noopener" class="follow-btn" title="Instagram">
-                                        <i class="fab fa-instagram fa-2x instagram-icon"></i>
-                                        <span class="d-block mt-2">Instagram</span>
-                                    </a>
-                                    <a href="https://facebook.com/your-profile" target="_blank" rel="noopener" class="follow-btn" title="Facebook">
-                                        <i class="fab fa-facebook fa-2x facebook-icon"></i>
-                                        <span class="d-block mt-2">Facebook</span>
-                                    </a>
-                                </div>
-                                <p style="font-size:0.98rem;color:var(--text-color);">Let’s connect, collaborate, and grow together!</p>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-                <button type="submit" class="btn btn-primary">Send</button>
-            </form>
+                <p class="follow-note">Let's connect, collaborate, and grow together.</p>
+            </article>
         </div>
     </section>
 
     <!-- BACK TO TOP -->
-    <button id="back-to-top" class="btn btn-primary"><i class="fas fa-arrow-up"></i></button>
+    <button id="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
 
     <!-- FOOTER -->
-    <footer class="text-center p-4">
-        <p>&copy; 2025 Wambia Kennedy | All Rights Reserved</p>
-        <div class="social-icons">
-            <a href="https://github.com/mastermind-create" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://linkedin.com/in/wambia-kennedy" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://twitter.com/wambia" target="_blank"><i class="fab fa-twitter"></i></a>
+    <footer class="site-footer">
+        <div class="footer-brand"><span class="brand-mark">◈</span> MASTERMIND</div>
+        <p class="footer-tag">Code is temporary. Systems are permanent.</p>
+        <div class="footer-social">
+            <a href="https://github.com/mastermind-creat" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/mastermind-5799bb398" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/MastermindCreat" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+            <a href="mailto:kennyleyy0@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
         </div>
+        <p class="copyright">&copy; <span id="year"></span> Wambia Kennedy · All rights reserved</p>
     </footer>
 
     <!-- SCRIPTS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3.2.0/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script>
-        // --- WIZARD BACKGROUND PARTICLES ---
-        const canvas = document.getElementById('wizard-bg');
-        const ctx = canvas.getContext('2d');
-        let particles = [];
+        (function () {
+            "use strict";
 
-        function resizeCanvas() {
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-        }
-        window.addEventListener('resize', resizeCanvas);
-        resizeCanvas();
+            /* ---------- Preloader ---------- */
+            function hideLoader() {
+                var loader = document.getElementById("loader");
+                if (loader && !loader.classList.contains("hidden")) {
+                    loader.classList.add("hidden");
+                    setTimeout(function () { if (loader.parentNode) loader.remove(); }, 600);
+                }
+            }
+            window.addEventListener("load", hideLoader);
+            setTimeout(hideLoader, 3500);
 
-        class Particle {
-            constructor() { this.reset(); }
-            reset() {
+            /* ---------- Year ---------- */
+            document.getElementById("year").textContent = new Date().getFullYear();
+
+            /* ---------- AOS ---------- */
+            if (window.AOS) AOS.init({ duration: 900, once: true, easing: "ease-out-cubic", offset: 60 });
+
+            /* ---------- Typed hero title ---------- */
+            var typedTitle = document.getElementById("typed-title");
+            if (window.Typed && typedTitle) {
+                new Typed("#typed-title", {
+                    strings: ["Wambia Kennedy", "the Full-Stack Sorcerer", "the AI Alchemist", "the Systems Architect"],
+                    typeSpeed: 55,
+                    backSpeed: 30,
+                    backDelay: 1600,
+                    loop: true,
+                    smartBackspace: true
+                });
+            } else if (typedTitle) {
+                typedTitle.textContent = "Wambia Kennedy";
+            }
+
+            /* ---------- Theme toggle (persisted) ---------- */
+            var themeBtn = document.getElementById("theme-toggle");
+            var savedTheme = localStorage.getItem("theme");
+            if (savedTheme === "light") document.body.classList.add("light-mode");
+            syncThemeIcon();
+
+            function syncThemeIcon() {
+                var light = document.body.classList.contains("light-mode");
+                themeBtn.innerHTML = light ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+            }
+            themeBtn.addEventListener("click", function () {
+                document.body.classList.toggle("light-mode");
+                var light = document.body.classList.contains("light-mode");
+                localStorage.setItem("theme", light ? "light" : "dark");
+                syncThemeIcon();
+            });
+
+            /* ---------- Mobile nav ---------- */
+            var navToggle = document.getElementById("nav-toggle");
+            var nav = document.getElementById("nav");
+            navToggle.addEventListener("click", function () {
+                var open = nav.classList.toggle("open");
+                navToggle.classList.toggle("active", open);
+                navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+            });
+            nav.querySelectorAll("a").forEach(function (link) {
+                link.addEventListener("click", function () {
+                    nav.classList.remove("open");
+                    navToggle.classList.remove("active");
+                    navToggle.setAttribute("aria-expanded", "false");
+                });
+            });
+
+            /* ---------- Scroll progress + header state ---------- */
+            var progressBar = document.getElementById("scroll-progress-bar");
+            var header = document.getElementById("site-header");
+            var backToTop = document.getElementById("back-to-top");
+            var sections = Array.prototype.slice.call(document.querySelectorAll("section[id]"));
+            var navLinks = Array.prototype.slice.call(document.querySelectorAll(".nav-link"));
+
+            function onScroll() {
+                var scrollTop = window.scrollY;
+                var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+                var pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+                progressBar.style.width = pct + "%";
+                header.classList.toggle("scrolled", scrollTop > 40);
+                backToTop.classList.toggle("show", scrollTop > 600);
+
+                var current = "";
+                sections.forEach(function (sec) {
+                    if (scrollTop >= sec.offsetTop - 140) current = sec.id;
+                });
+                navLinks.forEach(function (link) {
+                    link.classList.toggle("active", link.getAttribute("href") === "#" + current);
+                });
+            }
+            window.addEventListener("scroll", onScroll, { passive: true });
+            onScroll();
+
+            backToTop.addEventListener("click", function () {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            });
+
+            /* ---------- Cursor glow (desktop) ---------- */
+            var cursorGlow = document.getElementById("cursor-glow");
+            if (window.matchMedia("(pointer: fine)").matches && cursorGlow) {
+                window.addEventListener("mousemove", function (e) {
+                    cursorGlow.style.transform = "translate(" + e.clientX + "px," + e.clientY + "px)";
+                });
+            } else if (cursorGlow) {
+                cursorGlow.style.display = "none";
+            }
+
+            /* ---------- Terminal animation ---------- */
+            var terminalContent = document.getElementById("terminal-content");
+            var commands = [
+                { cmd: "locate mastermind", output: "Finding master coordinates... KISUMU, KENYA [LOCKED]" },
+                { cmd: "scan-skills --v", output: "Python, Node, React, AI... 99% COMPATIBILITY" },
+                { cmd: "cast-spell \"future\"", output: "Calculating possibilities... BRIGHT" }
+            ];
+            var cmdIndex = 0;
+
+            function typeEffect(el, text, done) {
+                var i = 0;
+                var timer = setInterval(function () {
+                    el.textContent += text.charAt(i);
+                    i++;
+                    if (i >= text.length) { clearInterval(timer); done(); }
+                }, 45);
+            }
+
+            function runTerminal() {
+                if (cmdIndex >= commands.length) return;
+                var line = document.createElement("div");
+                line.className = "terminal-line";
+                line.innerHTML = '<span class="prompt">&gt;</span> <span class="command"></span>';
+                terminalContent.insertBefore(line, terminalContent.lastElementChild);
+
+                typeEffect(line.querySelector(".command"), commands[cmdIndex].cmd, function () {
+                    var out = document.createElement("div");
+                    out.className = "terminal-line";
+                    out.innerHTML = '<span class="output ok">' + commands[cmdIndex].output + "</span>";
+                    terminalContent.insertBefore(out, terminalContent.lastElementChild);
+                    cmdIndex++;
+                    setTimeout(runTerminal, 1400);
+                });
+            }
+            setTimeout(runTerminal, 2000);
+
+            /* ---------- GitHub repositories ---------- */
+            var GITHUB_USERNAME = "mastermind-creat";
+            var projectGrid = document.getElementById("github-projects-grid");
+            var langColors = {
+                JavaScript: "#f1e05a", TypeScript: "#3178c6", Python: "#3572A5",
+                PHP: "#4F5D95", HTML: "#e34c26", CSS: "#563d7c", Vue: "#41b883"
+            };
+
+            function getLangColor(lang) { return langColors[lang] || "#8b949e"; }
+
+            async function fetchGithubRepos() {
+                try {
+                    var res = await fetch("https://api.github.com/users/" + GITHUB_USERNAME + "/repos?sort=updated&per_page=6");
+                    if (!res.ok) throw new Error("rate-limited");
+                    var repos = await res.json();
+                    projectGrid.innerHTML = "";
+                    repos.forEach(function (repo) {
+                        var card = document.createElement("article");
+                        card.className = "glass-card project-card";
+                        card.innerHTML =
+                            '<div class="repo-header">' +
+                            '<i class="fab fa-github"></i>' +
+                            '<span class="repo-stars"><i class="fas fa-star"></i> ' + repo.stargazers_count + "</span>" +
+                            "</div>" +
+                            '<h3 class="repo-name">' + repo.name + "</h3>" +
+                            '<p class="repo-desc">' + (repo.description || "A mysterious project crafted with logic and magic.") + "</p>" +
+                            '<div class="repo-stats">' +
+                            '<span class="repo-lang"><i class="fas fa-circle" style="color:' + getLangColor(repo.language) + '"></i> ' + (repo.language || "Hybrid") + "</span>" +
+                            '<a href="' + repo.html_url + '" target="_blank" rel="noopener" class="repo-link">Invoke <i class="fas fa-arrow-up-right-from-square"></i></a>' +
+                            "</div>";
+                        projectGrid.appendChild(card);
+                    });
+                } catch (err) {
+                    projectGrid.innerHTML = '<p class="grid-fallback">Could not load live repositories right now — explore them directly on <a href="https://github.com/' + GITHUB_USERNAME + '?tab=repositories" target="_blank" rel="noopener">GitHub</a>.</p>';
+                }
+            }
+            fetchGithubRepos();
+
+            /* ---------- Contact form (Netlify-friendly) ---------- */
+            var form = document.getElementById("contact-form");
+            var formMessage = document.getElementById("form-message");
+            form.addEventListener("submit", function (e) {
+                e.preventDefault();
+                var data = new FormData(form);
+                formMessage.textContent = "Transmitting…";
+                formMessage.className = "form-message pending";
+                fetch("/", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                    body: new URLSearchParams(data).toString()
+                }).then(function () {
+                    formMessage.textContent = "Message sent. I'll be in touch soon.";
+                    formMessage.className = "form-message success";
+                    form.reset();
+                }).catch(function () {
+                    formMessage.innerHTML = 'Direct send unavailable here. Email me at <a href="mailto:kennyleyy0@gmail.com">kennyleyy0@gmail.com</a>.';
+                    formMessage.className = "form-message error";
+                });
+            });
+
+            /* ---------- Particle network background ---------- */
+            var canvas = document.getElementById("bg-canvas");
+            var ctx = canvas.getContext("2d");
+            var particles = [];
+            var mouse = { x: null, y: null };
+            var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+            function resizeCanvas() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            }
+            window.addEventListener("resize", resizeCanvas);
+            resizeCanvas();
+
+            function Particle() {
+                this.reset();
+            }
+            Particle.prototype.reset = function () {
                 this.x = Math.random() * canvas.width;
                 this.y = Math.random() * canvas.height;
-                this.size = Math.random() * 2 + 0.5;
-                this.speedX = Math.random() * 0.5 - 0.25;
-                this.speedY = Math.random() * 0.5 - 0.25;
-                this.opacity = Math.random() * 0.5 + 0.1;
-            }
-            update() {
+                this.size = Math.random() * 1.8 + 0.4;
+                this.speedX = Math.random() * 0.4 - 0.2;
+                this.speedY = Math.random() * 0.4 - 0.2;
+                this.opacity = Math.random() * 0.5 + 0.15;
+            };
+            Particle.prototype.update = function () {
                 this.x += this.speedX;
                 this.y += this.speedY;
                 if (this.x < 0 || this.x > canvas.width) this.speedX *= -1;
                 if (this.y < 0 || this.y > canvas.height) this.speedY *= -1;
-            }
-            draw() {
-                ctx.fillStyle = `rgba(124, 58, 237, ${this.opacity})`;
+            };
+            Particle.prototype.draw = function () {
+                ctx.fillStyle = "rgba(239, 68, 68, " + this.opacity + ")";
                 ctx.beginPath();
                 ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
                 ctx.fill();
-            }
-        }
-        for (let i = 0; i < 100; i++) particles.push(new Particle());
-        function animate() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            particles.forEach(p => { p.update(); p.draw(); });
-            requestAnimationFrame(animate);
-        }
-        animate();
+            };
 
-        // --- TYPED TITLES ---
-        new Typed('#typed-title', {
-            strings: ["Wambia Kennedy", "the Full-Stack Sorcerer", "the AI Alchemist", "the Systems Architect"],
-            typeSpeed: 50,
-            backSpeed: 30,
-            loop: true
-        });
+            var count = window.innerWidth < 768 ? 45 : 110;
+            for (var i = 0; i < count; i++) particles.push(new Particle());
 
-        // Theme toggle
-        const toggleBtn = document.getElementById('theme-toggle');
-        toggleBtn.addEventListener('click', () => {
-            document.body.classList.toggle('dark-theme');
-        });
-        // --- GITHUB REPOSITORY SORCERY ---
-        const GITHUB_USERNAME = 'mastermind-creat';
-        const projectGrid = document.getElementById('github-projects-grid');
-
-        async function fetchGithubRepos() {
-            try {
-                const response = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos?sort=updated&per_page=6`);
-                const repos = await response.json();
-                
-                projectGrid.innerHTML = '';
-                repos.forEach(repo => {
-                    const card = document.createElement('div');
-                    card.className = 'project-card glass-card';
-                    card.innerHTML = `
-                        <div class="repo-header">
-                            <i class="fab fa-github fa-2x" style="color: var(--secondary-color)"></i>
-                            <div class="repo-stars"><i class="fas fa-star text-warning"></i> ${repo.stargazers_count}</div>
-                        </div>
-                        <h4 class="repo-name">${repo.name}</h4>
-                        <p class="repo-desc">${repo.description || 'A mysterious project crafted with logic and magic.'}</p>
-                        <div class="repo-stats">
-                            <span><i class="fas fa-circle" style="color: ${getLangColor(repo.language)}"></i> ${repo.language || 'Hybrid'}</span>
-                            <a href="${repo.html_url}" target="_blank" class="btn btn-sm btn-outline-primary ms-auto">Invoke <i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    `;
-                    projectGrid.appendChild(card);
-                });
-            } catch (error) {
-                projectGrid.innerHTML = '<p class="text-danger">Failed to summon repositories. The spirits are silent.</p>';
-            }
-        }
-
-        function getLangColor(lang) {
-            const colors = { 'JavaScript': '#f1e05a', 'TypeScript': '#3178c6', 'Python': '#3572A5', 'PHP': '#4F5D95', 'HTML': '#e34c26' };
-            return colors[lang] || '#8b949e';
-        }
-        fetchGithubRepos();
-
-        // --- TERMINAL ANIMATION ---
-        const terminalContent = document.getElementById('terminal-content');
-        const commands = [
-            { cmd: 'locate mastermind', output: 'Finding master coordinates... KISUMU, KENYA [LOCKED]' },
-            { cmd: 'scan-skills --v', output: 'Python, Node, React, AI... 99% COMPATIBILITY' },
-            { cmd: 'cast-spell "future"', output: 'Calculating possibilities... BRIGHT' }
-        ];
-
-        let cmdIndex = 0;
-        async function runTerminal() {
-            if (cmdIndex >= commands.length) return;
-            
-            const line = document.createElement('div');
-            line.className = 'terminal-line';
-            line.innerHTML = `<span class="prompt">></span> <span class="command" id="cmd-${cmdIndex}"></span>`;
-            terminalContent.insertBefore(line, terminalContent.lastElementChild);
-            
-            await typeEffect(`cmd-${cmdIndex}`, commands[cmdIndex].cmd);
-            
-            const out = document.createElement('div');
-            out.className = 'terminal-line';
-            out.innerHTML = `<span class="output text-success">${commands[cmdIndex].output}</span>`;
-            terminalContent.insertBefore(out, terminalContent.lastElementChild);
-            
-            cmdIndex++;
-            setTimeout(runTerminal, 1500);
-        }
-
-        function typeEffect(elementId, text) {
-            return new Promise(resolve => {
-                let i = 0;
-                const el = document.getElementById(elementId);
-                const timer = setInterval(() => {
-                    el.textContent += text[i];
-                    i++;
-                    if (i >= text.length) {
-                        clearInterval(timer);
-                        resolve();
+            function connect() {
+                for (var a = 0; a < particles.length; a++) {
+                    for (var b = a + 1; b < particles.length; b++) {
+                        var dx = particles[a].x - particles[b].x;
+                        var dy = particles[a].y - particles[b].y;
+                        var dist = Math.sqrt(dx * dx + dy * dy);
+                        if (dist < 120) {
+                            ctx.strokeStyle = "rgba(34, 197, 94, " + (0.12 * (1 - dist / 120)) + ")";
+                            ctx.lineWidth = 0.6;
+                            ctx.beginPath();
+                            ctx.moveTo(particles[a].x, particles[a].y);
+                            ctx.lineTo(particles[b].x, particles[b].y);
+                            ctx.stroke();
+                        }
                     }
-                }, 50);
-            });
-        }
-        setTimeout(runTerminal, 2000);
+                }
+            }
 
-        // --- UTILITIES ---
-        AOS.init({ duration: 1000, once: true });
-        
-        const themeBtn = document.getElementById('theme-toggle');
-        themeBtn.addEventListener('click', () => {
-            document.body.classList.toggle('light-mode');
-            const isLight = document.body.classList.contains('light-mode');
-            themeBtn.innerHTML = isLight ? '<i class="fas fa-sun"></i> Theme' : '<i class="fas fa-moon"></i> Theme';
-        });
-
-        const backToTop = document.getElementById('back-to-top');
-        window.addEventListener('scroll', () => {
-            if(window.scrollY > 500) backToTop.classList.add('show');
-            else backToTop.classList.remove('show');
-        });
-        backToTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
-
-        // EmailJS form submission
-        emailjs.init("YOUR_EMAILJS_USER_ID");
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', contactForm)
-                .then(() => alert('Message sent successfully!'))
-                .catch(() => alert('Failed to send message. Please try again.'));
-            contactForm.reset();
-        });
-    </script>
-
-    <!-- GitHub Snake Animation for Contribution Calendar -->
-    <script src="https://rawcdn.githack.com/Platane/snk/0.3.0/dist/snake.min.js"></script>
-    <script>
-        new Snake('.gh-activity-graph', {
-            speed: 80,
-            color: '#0a0',
-            gameOverText: 'Snake Over!',
-            startOn: 'load'
-        });
+            function animate() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                particles.forEach(function (p) { p.update(); p.draw(); });
+                connect();
+                requestAnimationFrame(animate);
+            }
+            if (!reduceMotion) animate();
+        })();
     </script>
 </body>
 </html>
